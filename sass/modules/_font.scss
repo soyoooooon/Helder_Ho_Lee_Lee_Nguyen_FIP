@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('AvenirLTStd-Roman.eot');
+    src: url('AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Roman.woff2') format('woff2'),
+        url('AvenirLTStd-Roman.woff') format('woff'),
+        url('AvenirLTStd-Roman.otf') format('otf'),
+        url('AvenirLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir medium';
+    src: url('AvenirLTStd-Medium.eot');
+    src: url('AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Medium.woff2') format('woff2'),
+        url('AvenirLTStd-Medium.woff') format('woff'),
+        url('AvenirLTStd-Medium.otf') format('otf'),
+        url('AvenirLTStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir book';
+    src: url('AvenirLTStd-Book.eot');
+    src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Book.woff2') format('woff2'),
+        url('AvenirLTStd-Book.woff') format('woff'),
+        url('AvenirLTStd-Book.otf') format('otf'),
+        url('AvenirLTStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

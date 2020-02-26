@@ -1,0 +1,5 @@
+*.ai
+*.psd
+*.ae
+.DS_Store
+/includes
