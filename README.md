@@ -2,7 +2,7 @@
 
 Red Ribbon Youth
 
-    Campaign page to education about, and decrease the stigma, of HIV/AIDS/HepC
+    Campaign page to education about, and decrease the stigma of, HIV/AIDS/HepC
     
 Authous
     
