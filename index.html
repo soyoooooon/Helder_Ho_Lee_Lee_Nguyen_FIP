@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-
 	<title>Red Ribbon Youth</title>
 </head>
 <body>
@@ -224,7 +225,8 @@
             <p class="text">Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers. Information on this site is not to be used for diagnosis, treatment or referral services. Individuals should contact their personal physician, and/or their local addiction or mental health agency for further information. If you are in crisis, please go to your local hospital or call 911 immediately</p>
             <p class="copy">© Red Ribbon Youth, 2020. All rights reserved</p>
         </footer>
-
+    
+        <router-view></router-view>
     </main>
 
 	<script src="js/main.js"></script>
