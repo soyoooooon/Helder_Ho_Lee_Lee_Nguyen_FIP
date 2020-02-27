@@ -12,82 +12,223 @@
 </head>
 <body>
 	<header>
-        <div id="logo">
-            <img src="images/LOGO.svg" alt="temporary logo">
-        </div>
-        <div id="hamburger">
-            
-        </div>
+        <a id="logo" href="index.html">
+            <img src="images/LOGO.svg" alt="logo">
+        </a>
         <nav>
-            <ul id="menu">
-                <li><a href="index.html#innitiatives">our innitiative</a></li>
-                <li><a href="index.html#educated">get educated</a></li>
-                <li><a href="index.html#tested">get tested</a></li>
-                <li><a href="index.html#involved">get involved</a></li>
-                <li><a href="index.html#faq">faq</a></li>
-            </ul>
-
-            <ul id="social">
-                <li><img src="images/email.svg" alt="email"></li>
-                <li><img src="images/facebook.svg" alt="facebook"></li>
-                <li><img src="images/twitter.svg" alt="twitter"></li>
-                <li><img src="images/instagram.svg" alt="instagram"></li>
+            <ul>
+                <li><a class="active" href="#innitiatives">our innitiative</a></li>
+                <li><a href="#educated">get educated</a></li>
+                <li><a href="#tested">get tested</a></li>
+                <li><a href="#involved">get involved</a></li>
+                <li><a href="#faq">faq</a></li>
             </ul>
         </nav>
-        
+        <div id="social">
+            <a href="#"><img src="/images/email.svg" alt="email icon"></a>
+            <a href="#"><img src="/images/facebook.svg" alt="facebook icon"></a>
+            <a href="#"><img src="/images/twitter.svg" alt="twitter icon"></a>
+            <a href="#"><img src="/images/instagram.svg" alt="instagram icon"></a>
+        </div>
     </header>
     
 	<main>
-    <!--title tag used for navigation-->
-        <title id="innitiatives" class="hidden"></title>
+<!--br tag used for navagation-->
+        <br id="innitiatives" class="hidden">
 
     <!--"workshop": tagline, pic, calander, workshop-->
-        <section class="workshop">
-
+        <section class="workshop-container">
+            <div class="tagline">
+                <h1>learn, love, live</h1>
+                <p>The stigma is a result of misconceptions and it needs to end. Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers.</p>
+            </div>
+            <div class="workshop">
+                <div class="calander">
+                    <h3>This Month</h3>
+                    <ul class="weeks">
+                        <li>S</li>
+                        <li>M</li>
+                        <li>T</li>
+                        <li>W</li>
+                        <li>T</li>
+                        <li>F</li>
+                        <li>S</li>
+                    </ul>
+                    <ul class="days">
+                        <button id="1">1</button>
+                        <button id="2">2</button>
+                        <button id="3">3</button>
+                        <button id="4">4</button>
+                        <button id="5">5</button>
+                        <button id="6">6</button>
+                        <button id="7">7</button>
+                        <button id="8">8</button>
+                        <button id="9">9</button>
+                        <button id="10">10</button>
+                        <button id="11">11</button>
+                        <button id="12">12</button>
+                        <button id="13">13</button>
+                        <button id="14">14</button>
+                        <button id="15">15</button>
+                        <button id="16">16</button>
+                        <button id="17">17</button>
+                        <button id="18">18</button>
+                        <button id="19">19</button>
+                        <button id="20">20</button>
+                        <button id="21">21</button>
+                        <button id="22">22</button>
+                        <button id="23">23</button>
+                        <button id="24">24</button>
+                        <button id="25">25</button>
+                        <button id="26">26</button>
+                        <button id="27">27</button>
+                        <button id="28">28</button>
+                        <button id="29">29</button>
+                        <button id="30">30</button>
+                        <button id="31">31</button>
+                    </ul>
+                </div>
+                <div class="workshop-info">
+                    <h2>workshop</h2>
+                    <p>Thames Valley District School Board</p>
+                    <p>11am - 12pm</p>
+                    <button>Find out more</button>
+                </div>
+            </div>
         </section>
         
     <!--"innitiatives": bannerFact, video, learn/love/live-->
         <section class="innitiatives">
-            
+            <div class="fact-banner">
+                <h1>14%</h1>
+                <p>of people with HIV in Canada are unaware that they have HIV.</p>
+            </div>
+            <video src="/videos/placeHolderVid.mp4" controls alt="campaign video"></video>
+            <div class="lll">
+                <div class="learn">
+                    <h1>learn</h1>
+                    <p>Learn the facts & break the myths.  Unnderstanding what HIV is, how it spreads, how to prevent it and how to live a healthy life with it</p>
+                </div>
+                <div class="love">
+                    <h1>love</h1>
+                    <p>Spread more love & stop the stigma.  HIV is just an incurable virus.  But HIVrelated stigma is just as deadly</p>
+                </div>
+                <div class="live">
+                    <h1>live</h1>
+                    <p>Live freely & eliminate fear. A supportive community helps people with HIV to speak up and reduce the risk of more HIV transmission. </p>
+                </div>
+            </div>
         </section>
 
-    <!--title tag used for navagation-->
-        <title id="educated" class="hidden"></title>
+
+<!--br tag used for navagation-->
+        <br id="educated" class="hidden">
         
-    <!--"educate": pic, link div-->
+    <!--"educate": video, link div-->
         <section class="educate">
-            
+            <div class="image">
+                <video src="/videos/placeHolderVid.mp4" autoplay muted loop alt="education video">
+            </div>
+            <div class="link-container">
+                <h1>you have the power to change the world</h1>
+                <button>Get educated</button>
+            </div>
         </section>
 
-    <!--title tag used for navagation-->
-        <title id="tested" class="hidden"></title>
+<!--br tag used for navagation-->
+        <br id="tested" class="hidden">
 
     <!--"test": pic, link div-->
         <section class="test">
-            
+            <div class="image">
+                <img src="/images/getTested_web.jpg" alt="tested image">
+            </div>
+            <div class="link-container">
+                <h1>take care of yourself first</h1>
+                <button>Get tested</button>
+            </div>
         </section>
 
-    <!--title tag used for navagation-->
-        <title id="involved" class="hidden"></title>
+<!--br tag used for navagation-->
+        <br id="involved" class="hidden">
 
     <!--"invole": donate, volunteer, partner-->
         <section class="involve">
-            
+            <div>
+                <h1>make a donation</h1>
+                <p>Our volunteer program makes Red Ribbon Youth the incredible organization that it is today, achieving our vision of empowering choices, engaging communities, and ending transmission. The investment of your time in without any doubt, greatly appreciated, and we hope to hear from you soon.</p>
+                <button>Sign up</button>
+            </div>
+            <div>
+                <h1>Volunteer for our events</h1>
+                <p>Our volunteer program makes Red Ribbon Youth the incredible organization that it is today, achieving our vision of empowering choices, engaging communities, and ending transmission. The investment of your time in without any doubt, greatly appreciated, and we hope to hear from you soon.</p>
+                <button>Sign up</button>
+            </div>
+            <div>
+                <h1>become our partner</h1>
+                <p>Our volunteer program makes Red Ribbon Youth the incredible organization that it is today, achieving our vision of empowering choices, engaging communities, and ending transmission. The investment of your time in without any doubt, greatly appreciated, and we hope to hear from you soon.</p>
+                <button>Sign up</button>
+            </div>
         </section>
 
-    <!--title tag used for navagation-->
-        <title id="faq" class="hidden"></title>
+<!--br tag used for navagation-->
+        <br id="faq" class="hidden">
 
     <!--"educate": title, questions-->
         <section class="faq">
-            
+            <ul>
+                <li class="question">
+                    What is Red Ribbon Youth’s focus?
+                </li>
+                <span class="hidden answer">
+                    Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers.
+                </span>
+                <li class="question">
+                    What activities do Red Ribbon Youth offers?
+                </li>
+                <span class="hidden answer">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quidem modi ullam quisquam asperiores ab nam placeat itaque veritatis quibusdam blanditiis totam saepe voluptas aliquam, exercitationem eveniet laborum similique quod?
+                </span>
+                <li class="question">
+                    How can I find information about upcoming events?
+                </li>
+                <span class="hidden answer">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquam voluptatibus hic magnam! Repudiandae explicabo magni dolorem aliquid dolorum? Ex iure illum quas eos consequatur debitis asperiores eaque ratione laudantium.
+                </span>
+                <li class="question">
+                    How can I make a donation?
+                </li>
+                <span class="hidden answer">
+                    Lorem ipsum dolor sit amet, temporibus sequi, vero, mollitia fugiat et laudantium.
+                </span>
+                <li class="question">
+                    I missed an workshop at my school, how can I attend another one?
+                </li>
+                <span class="hidden answer">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur ipsa. Totam, doloremque.
+                </span>
+                <li class="question">
+                    Where do my donation go?
+                </li>
+                <span class="hidden answer">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem, quibusdam tempore porro enim nihil ullam provident nulla delectus odio alias dicta eum obcaecati placeat, officia error, expedita iure pariatur!
+                </span>
+                <li class="question">
+                    What can I do if I volunteer?
+                </li>
+                <span class="hidden answer">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, deserunt. Voluptates similique laborum deserunt nemo consequuntur dolores accusantium natus iusto quia sint maxime accusamus, dolorum illum, dignissimos nisi dolor? Odio!
+                </span>
+            </ul>
         </section>
+
+        <footer>
+            <p class="text">Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers. Information on this site is not to be used for diagnosis, treatment or referral services. Individuals should contact their personal physician, and/or their local addiction or mental health agency for further information. If you are in crisis, please go to your local hospital or call 911 immediately</p>
+            <p class="copy">© Red Ribbon Youth, 2020. All rights reserved</p>
+        </footer>
+    
         <router-view></router-view>
     </main>
-
-    <footer>
-
-    </footer>
 
 	<script src="js/main.js"></script>
 </body>

@@ -1,41 +1,73 @@
-header{
-    width: 100%;
-    height: 10vh;
+header {
     display: flex;
+    flex-direction: column;
+    align-self: start;
+    position: fixed;
+    width: 120px;
+    padding: 10px 0;
 
-    nav{
+    #logo {
+        width: 90%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    nav {
         width: 100%;
-        position: fixed;
-        display: none; // change to block when clicked
+        margin: auto;
 
-        #menu{
-            width: 90%;
-            margin: 0 auto;
-            
-            li{
-                padding: 30px 0;
-                border-bottom: 1px solid black;
+        ul {
+            padding: 15px 0;
+
+            li {
+                display: flex;
+                flex-direction: row;
+                font-family: Avenir-book, sans-serif;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: lighter;
+                border-bottom: 1.5px solid $grey;
+                padding: 5px 0;
+                transition: .3s;
+
+                &:hover {
+                    font-weight: bold;
+                    background-image: url(/images/ribbon.jpeg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
 
                 a{
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
                     text-decoration: none;
-                    text-transform: uppercase;
-                    font-size: 1em;
+                    color: black;
+                    padding: 10px 0;
+                    padding-left: 3px;
+
+                    
                 }
+
+                
             }
-        }  
-        
-        #social{
+        }
+    }
+
+    #social {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        a img {
             width: 90%;
-            margin: 60px auto 0;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            
-            li img{
-                width: 20px;
-                height: 20px;
-            }
-            
+            cursor: pointer;
         }
     }
 }

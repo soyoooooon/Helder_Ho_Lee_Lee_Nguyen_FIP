@@ -8,8 +8,18 @@
 @import 'modules/_involved';
 @import 'modules/_faq';
 
-body{
-    overflow: hidden;
-    font-family: 'Avenir book', sans-serif;
-    font-size: 12px;
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vW;
+    max-width: 1024px;
+    margin: auto;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 960px;
+        width: 80%;
+        margin-left: 140px;
+    }
 }
