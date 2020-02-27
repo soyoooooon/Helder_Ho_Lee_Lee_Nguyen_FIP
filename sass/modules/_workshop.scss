@@ -1,0 +1,157 @@
+#workshop-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    .tagline {
+        width: 75%;
+        padding: 200px 15px 0;
+
+        h1 {
+            color: $yellow;
+            font-family: 'Avenir-medium';
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: 30px;
+            font-style: oblique;
+        }
+
+        p {
+            // color: white;
+            font-style: 14px;
+            font-family: 'Avenir';
+            line-height: 21px;
+        }
+    }
+
+    .banner-img {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: -2;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .workshop-info {
+        width: 80%;
+        background-color: $yellow-overlay;
+        margin: 15px 0 0; 
+
+        h2 {
+            font-size: 20px;
+            font-family: 'Avenir-medium';
+            text-transform: uppercase;
+            font-weight: bolder;
+            font-style: oblique;
+            padding: 30px 15px 0;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: 'Avenir';
+            padding: 15px 15px 0;
+        }
+
+        button {
+            font-family: 'Avenir';
+            font-size: 12px;
+            font-style: oblique;
+            background-color: $yellow;
+            width: 125px;
+            height: 30px;
+            margin: 15px 15px 30px;
+            margin-left: 10px;
+            margin-top: 15px;
+            border-radius: 15px; 
+            border: solid black 1px;
+        }
+    }
+
+    #calander {
+        width: 100%;
+
+        iframe {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    
+}
+
+// #workshop-container{
+//     background:  url(../images/banner_bw_uncut.jpg);
+    
+//     // filter: grayscale(100%);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//     height: 100vh;
+
+//     .tagline{
+//         margin-top: 210px;
+//         h1{color: $yellow;
+//             padding-left: 15px;
+//             font-family: Avenir-medium;
+//             font-weight: bolder;
+//             text-transform: uppercase;
+//             font-size: 3em;
+//             font-style: oblique;}
+//         p{width: 300px;
+//         margin-top: 25px;
+//         padding: 1%;
+//         padding-left: 15px;
+//         color:white;
+//         font-family: Avenir-book;
+//         line-height: 1.5em;}
+//     } //tag line ends
+
+//     .workshop-info{
+//         margin-top: 33px;
+//         width: 300px;
+//         height:32vh;
+//         background-color: $yellow-overlay;
+
+//         h2{
+//         font-size: 1.5em;
+//         font-family: Avenir-medium;
+//         text-transform: uppercase;
+//         font-weight: bolder;
+//         font-style: oblique;
+//         padding-left: 15px;
+//         padding-top: 40px;}
+//         p{
+//         font-size: 1em;
+//         padding-top: 20px;
+//         padding-left: 15px;
+//         font-family: Avenir-medium;
+//         line-height: 1.5em; }
+        
+//         button{
+//         font-family: Avenir-medium;
+//         font-size: 0.8em;
+//         font-style: oblique;
+//         background-color: $yellow;
+//         width: 125px;
+//         height: 30px;
+//         margin-left: 10px;
+//         margin-top: 15px;
+//         border-radius: 15px; 
+//         border: solid black 1.5px;}
+//     } //workshop info ends
+
+// } //article ends
+// #calander{
+//     width: 100vw;
+//     height: 100vh;
+//     .google-calander{
+//         margin-left: 5%;
+//         margin-top: 15vh;
+//         width: 85vw;
+//         height: 60vh;
+//     }
+// }
+
