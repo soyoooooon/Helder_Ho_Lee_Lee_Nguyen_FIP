@@ -1,29 +1,37 @@
-// this section of code is from jeff's desktop view
-// i copied it here and tried to change it to mobile
-// so that we don't need to change the sass for desktop view
-// anw i also added my mobile view after this section
+// mobile view (newest)
 header {
     display: flex;
     flex-direction: row;
-    align-self: start;
-    // position: fixed;
     width: 100%;
-    padding: 10px 0;
+    position: fixed;
+    background-color: #fff;
 
     #logo {
-        width: 90%;
+        width: 50%;
 
         img {
-            width: 100%;
+            width: 30%;
+            padding: 15px 15px;
+        }
+    }
+
+    #hamburger {
+        width: 50%;
+        text-align: right;
+
+        img {
+            width: 20%;
+            padding: 30px 15px 15px;
         }
     }
 
     nav {
         width: 100%;
-        margin: auto;
+        position: fixed;
+        display: none;
 
         ul {
-            padding: 10px 0;
+            padding: 15px 0;
 
             li {
                 display: flex;
@@ -52,9 +60,7 @@ header {
                     color: black;
                     padding: 10px 0;
                     padding-left: 3px;
-
-                    
-                }
+                }   
             }
         }
     }
@@ -64,7 +70,7 @@ header {
         margin-top: 50px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
         a img {
@@ -72,75 +78,35 @@ header {
             cursor: pointer;
         }
     }
-}
+} // end of mobile view
 
-// here is my code for mobile view
-// i recommend you just use it for reference
-// and change jeff's code (the code above)
-// header{
-//     width: 100%;
-//     height: 10vh;
-//     display: flex;
-
-//     nav{
-//         width: 100%;
-//         position: fixed;
-//         // display: none; // change to block when clicked
-
-//         #menu{
-//             width: 90%;
-//             margin: 0 auto;
-            
-//             li{
-//                 padding: 30px 0;
-//                 border-bottom: 1px solid black;
-
-//                 a{
-//                     text-decoration: none;
-//                     text-transform: uppercase;
-//                     font-size: 1em;
-//                 }
-//             }
-//         }  
-        
-//         #social{
-//             width: 90%;
-//             margin: 60px auto 0;
-//             display: flex;
-//             flex-direction: row;
-//             justify-content: space-evenly;
-            
-//             li img{ // this part won't work because of different html
-//                 width: 20px;
-//                 height: 20px;
-//             }
-            
-//         }
-//     }
-// }
-// xoxo dil
-
-// desktop (jeff's original code)
-@media screen and (min-width: 768px){ // i also added this media query
+// desktop view (jeff's original code)
+@media screen and (min-width: 768px){ 
     header {
         display: flex;
         flex-direction: column;
         align-self: start;
         position: fixed;
         width: 120px;
-        padding: 10px 0;
 
         #logo {
-            width: 90%;
+            width: 100%;
 
             img {
                 width: 100%;
+                padding: 20px 0 0;
             }
+        }
+
+        #hamburger {
+            display: none;
         }
 
         nav {
             width: 100%;
             margin: auto;
+            position: relative;
+            display: block;
 
             ul {
                 padding: 15px 0;
@@ -171,12 +137,8 @@ header {
                         text-decoration: none;
                         color: black;
                         padding: 10px 0;
-                        padding-left: 3px;
-
-                        
+                        padding-left: 3px;  
                     }
-
-                    
                 }
             }
         }
@@ -195,4 +157,4 @@ header {
             }
         }
     }
-}
+} // end of desktop view
