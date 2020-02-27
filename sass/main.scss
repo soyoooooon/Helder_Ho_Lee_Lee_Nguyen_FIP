@@ -7,3 +7,9 @@
 @import 'modules/_get';
 @import 'modules/_involved';
 @import 'modules/_faq';
+
+body{
+    overflow: hidden;
+    font-family: 'Avenir book', sans-serif;
+    font-size: 12px;
+}
