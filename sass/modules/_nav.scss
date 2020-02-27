@@ -23,7 +23,7 @@ header {
         margin: auto;
 
         ul {
-            padding: 15px 0;
+            padding: 10px 0;
 
             li {
                 display: flex;
@@ -77,47 +77,47 @@ header {
 // here is my code for mobile view
 // i recommend you just use it for reference
 // and change jeff's code (the code above)
-header{
-    width: 100%;
-    height: 10vh;
-    display: flex;
+// header{
+//     width: 100%;
+//     height: 10vh;
+//     display: flex;
 
-    nav{
-        width: 100%;
-        position: fixed;
-        display: none; // change to block when clicked
+//     nav{
+//         width: 100%;
+//         position: fixed;
+//         // display: none; // change to block when clicked
 
-        #menu{
-            width: 90%;
-            margin: 0 auto;
+//         #menu{
+//             width: 90%;
+//             margin: 0 auto;
             
-            li{
-                padding: 30px 0;
-                border-bottom: 1px solid black;
+//             li{
+//                 padding: 30px 0;
+//                 border-bottom: 1px solid black;
 
-                a{
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    font-size: 1em;
-                }
-            }
-        }  
+//                 a{
+//                     text-decoration: none;
+//                     text-transform: uppercase;
+//                     font-size: 1em;
+//                 }
+//             }
+//         }  
         
-        #social{
-            width: 90%;
-            margin: 60px auto 0;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+//         #social{
+//             width: 90%;
+//             margin: 60px auto 0;
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: space-evenly;
             
-            li img{ // this part won't work because of different html
-                width: 20px;
-                height: 20px;
-            }
+//             li img{ // this part won't work because of different html
+//                 width: 20px;
+//                 height: 20px;
+//             }
             
-        }
-    }
-}
+//         }
+//     }
+// }
 // xoxo dil
 
 // desktop (jeff's original code)

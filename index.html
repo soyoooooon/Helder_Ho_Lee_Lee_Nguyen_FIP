@@ -37,12 +37,12 @@
         <br id="innitiatives" class="hidden">
 
     <!--"workshop": tagline, pic, calander, workshop-->
-        <section class="workshop-container">
+        <article id="workshop-container">
             <div class="tagline">
                 <h1>learn, love, live</h1>
                 <p>The stigma is a result of misconceptions and it needs to end. Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers.</p>
             </div>
-            <div class="workshop">
+            <!-- <div class="workshop">
                 <div class="calander">
                     <h3>This Month</h3>
                     <ul class="weeks">
@@ -87,15 +87,20 @@
                         <button id="30">30</button>
                         <button id="31">31</button>
                     </ul>
-                </div>
+                </div> -->
                 <div class="workshop-info">
                     <h2>workshop</h2>
-                    <p>Thames Valley District School Board</p>
-                    <p>11am - 12pm</p>
+                    <p>Thames Valley District<br> School Board</br>
+                    11am - 12pm</p>
                     <button>Find out more</button>
                 </div>
-            </div>
-        </section>
+            </article>
+            <!-- mobile main ends here.. will do it desktop-->
+                <section id="calander">
+                <iframe class="google-calander" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23e1ff2c&amp;ctz=America%2FToronto&amp;src=djVjYzRkZGo5ZGR2bmRlNDQ0M3Z2aHJhdTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=a28uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23F6BF26&amp;color=%230B8043&amp;title=Red%20Ribbon%20Youth" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </section>
+            <!-- </div> -->
+        
         
     <!--"innitiatives": bannerFact, video, learn/love/live-->
         <section class="innitiatives">
@@ -230,6 +235,6 @@
         <router-view></router-view>
     </main>
 
-	<script src="js/main.js"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
