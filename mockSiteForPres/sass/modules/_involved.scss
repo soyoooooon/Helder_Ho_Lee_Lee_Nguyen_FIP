@@ -1,0 +1,195 @@
+.involve {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vH;
+
+    .involve-card{
+        width: 33.33%;
+
+        .card{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .container{
+                -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+                -webkit-perspective: 1000px;
+                perspective: 1000px;
+
+                .fdonate {
+                    background-image: url(/fip/images/donation_web.jpg) !important;
+
+                    &::before{
+                        content: "";
+                        background-image: url(/fip/images/donation_web.jpg) !important;
+                         z-index: -1;
+                    }
+                }
+                .fvolunteer {
+                    background-image: url(/fip/images/volunteer_web.jpg) !important;
+                
+                    &::before{
+                        content: "";
+                        background-image: url(/fip/images/volunteer_web.jpg) !important;
+                         z-index: -1;
+                    }
+                }
+                .fpartner {
+                    background-image: url(/fip/images/partner_web.jpg) !important;
+                
+                    &:before{
+                        content: "";
+                        background-image: url(/fip/images/partner_web.jpg) !important;
+                        z-index: -1;
+                    }
+                }
+
+                .front,
+                .back,
+                .back:before,
+                .back:after {
+                    background-size: cover;
+                    background-position: center;
+                    transition: transform .8s cubic-bezier(0.4, 0.2, 0.2, 1);
+                    backface-visibility: hidden;
+                    text-align: center;
+                    min-height: 280px;
+                    color: #fff;
+                    font-size: 1.5rem;
+                    text-shadow: .5px .5px 1px black;
+                    height: 85vH;
+                }
+
+                .back{
+                    &::after{
+                        content: "";
+                        background-color: $yellow-overlay;
+                    }
+                }
+
+                .bdonate {
+                    background-image: url(/fip/images/donation_web.jpg) !important;
+
+                    &::before{
+                        content: "";
+                        background-image: url(/fip/images/donation_web.jpg) !important;
+                         z-index: -1;
+                    }
+                }
+                .bvolunteer {
+                    background-image: url(/fip/images/volunteer_web.jpg) !important;
+                
+                    &::before{
+                        content: "";
+                        background-image: url(/fip/images/volunteer_web.jpg) !important;
+                         z-index: -1;
+                    }
+                }
+                .bpartner {
+                    background-image: url(/fip/images/partner_web.jpg) !important;
+                
+                    &:before{
+                        content: "";
+                        background-image: url(/fip/images/partner_web.jpg) !important;
+                        z-index: -1;
+                    }
+                }
+
+                .front:after{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    content: '';
+                    display: block;
+                    backface-visibility: hidden;
+                }
+
+                .back,
+                .back:before,
+                .back:after{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+
+                &:hover {
+                    .front, .back {
+                        transition: transform .8s cubic-bezier(0.4, 0.2, 0.2, 1);
+                    }
+
+                    .back {
+                        transform: rotateY(0deg);
+                        transform-style: preserve-3d;
+                      }
+
+                      .front{
+                        transform: rotateY(-180deg);
+                        transform-style: preserve-3d;
+                      }
+                }
+                
+                .front, .inner{
+                    transform: translateZ(30px) scale(0.94);
+                    
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    padding: 2rem;
+                    box-sizing: border-box;
+                    perspective: inherit;
+                    z-index: 2;
+                    font-family: Avenir medium, sans-serif;
+                    font-weight: normal;
+                    text-align: left;
+
+                    h1{
+                        text-transform: uppercase; 
+                        font-weight: bold; 
+                        font-style: italic;
+                        color: $yellow;
+                    }
+
+                   p{
+                    padding-top: 40px;
+                    font-weight: normal;
+                    text-shadow: none;
+                    color: black;
+                    font-size: 1rem;
+                    line-height: 2rem;
+                   }
+
+                   button {
+                       margin-top: 40px;
+                       background: none;
+                       border: 1.4px solid black;
+                       padding: 10px 0;
+                       width: 50%;
+                       cursor: pointer;
+                   }
+                }
+
+                .back{
+                    transform: rotateY(180deg);
+                    transform-style: preserve-3d;
+
+                    .inner {
+                        h1{color: $red;}
+                    }
+                }
+
+                .front{
+                    transform: rotateY(0deg);
+                    transform-style: preserve-3d;
+                }
+            
+            }
+
+        }
+    }
+}

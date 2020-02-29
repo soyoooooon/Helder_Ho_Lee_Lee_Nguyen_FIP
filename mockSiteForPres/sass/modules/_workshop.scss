@@ -1,0 +1,147 @@
+.workshop-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .tagline {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 10% 10%;
+
+        h1{
+            font-family: Avenir medium, sans-serif;
+            text-transform: uppercase;
+            font-weight: 550;
+            font-style: italic;
+            font-size: 30px;
+            line-height: 1.5;
+        }
+
+        p {
+            padding: 25px 0;
+            font-family: Avenir medium, sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 1.5;
+            margin-right: 60px;
+        }
+    }
+
+    .workshop{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        min-width: 374px;
+        align-items: flex-end;
+        background-image: url(/fip/images/banner_photo_web.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .calander {
+            font-family: Avenir medium, sans-serif;
+            font-weight: normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 45%;
+            min-width: 188px;
+            height: 55%;
+            background-color: white;
+
+            h3 {
+                padding-bottom:10px;
+            }
+
+            .weeks {
+                display: flex;
+                flex-direction: row;
+                width: 95%;
+                justify-content: flex-start;
+
+
+                li { 
+                    width: 25px;
+                    text-align: center;
+                    background-color: $grey;
+                    font-size: 10px;
+                    padding: 5px 0;
+                }
+            }
+
+            .days {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 95%;
+                justify-content: flex-start;
+
+                button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    background-color: $lightgrey;
+                    border: none;
+                    margin: 1px;
+                    font-size: 10px;
+                    width: 23px;
+                    height: 25px;
+
+                    p{
+                        height: 80%;
+                        width: 80%;
+                        margin: auto;
+                        padding: 2px 3px;
+                    }
+
+                    .active {
+                        
+                            border: 1.5px solid red;
+                            border-radius: 50%;
+                        
+                    }
+
+                }
+            }
+        }
+
+        .workshop-info {
+            font-family: Avenir medium, sans-serif;
+            font-weight: normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 45%;
+            min-width: 188px;
+            height: 45%;
+            background-color: $yellow-overlay;
+
+            h2, p, button {
+                margin-left: 18px;
+            }
+
+            h2 {
+                margin-top: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-style: italic;
+            }
+
+            p{
+                font-size: 13px;
+                line-height: 1.5;
+            }
+
+            button {
+                width: 50%;
+                padding: 3px 0;
+                font-size: 12px;
+                border-radius: 8px;
+                border: 1px solid black;
+                background-color: $yellow-overlay;
+            }
+        }
+    }
+}

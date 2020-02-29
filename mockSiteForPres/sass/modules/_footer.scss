@@ -1,0 +1,17 @@
+footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    
+    font-family: Avenir medium, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: .8rem;
+
+    p {
+        width: 50%;
+        padding: 15px;
+    }
+}

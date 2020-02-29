@@ -1,0 +1,59 @@
+.educate, .test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url('/fip/images/thumbnail.jpg');
+    background-size: 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60vH;
+
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 50%;
+        background-color: $red-overlay;
+        font-family: Avenir medium, sans-serif;
+        font-weight: normal;
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+        h1 {
+            text-transform: uppercase;
+            color: white;
+            margin-left: 20px;
+            width: 90%;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        button {
+            background: none;
+            border: 1.5px solid white;
+            color: white;
+            width: 50%;
+            height: 20%;
+            margin-left: 20px;
+            outline-style: none;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.test {
+    background-image: url('/fip/images/getTested_web.jpg') !important;
+    background-position: left !important;
+    justify-content: flex-end !important;
+    margin-bottom: 100px;
+}
