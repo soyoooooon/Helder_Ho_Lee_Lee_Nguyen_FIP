@@ -28,7 +28,7 @@
         );
 
         if($user_delete){
-            redirect_to('admin_deleteuser.php');
+            redirect_to('admin_edituser.php');
         }else{
             return false;
         }
