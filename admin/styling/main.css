@@ -92,7 +92,7 @@ main .site-nav .sections{
     width: 100%;
 }
 
-main #hero {
+main #hero, #about, #workshop, #why, #how, #where, #join, #footer {
     display: flex;
     flex-direction: column;
     width: 95%;
@@ -132,4 +132,94 @@ main #hero {
     max-width:100%;
     max-height:100%;
     margin: auto;
+}
+
+/* Copy(text) boxes */
+.copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.copy .copy-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.copy .copy-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    height: 200px;
+    width: 248px;
+    overflow-y: auto;
+    word-break: keep-all;
+}
+
+.copy .copy-container p{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    word-break: keep-all;
+}
+
+.copy .copy-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.copy .copy-container form textarea {
+    height: 40%;
+}
+
+.copy .copy-container form input {
+    width: 40%;
+}
+
+/* Video boxes */
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.video .video-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.video .video-container .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    height: 200px;
+    width: 248px;
+}
+
+.video .video-container video{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
 }
