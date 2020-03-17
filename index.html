@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css>
+    <link rel="icon" href="images/logo.svg">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <title>Red Ribbon Youth</title>
 </head>
 <body>
-    
+    <main id="app">
+    <nav id="nav-bar">
+        <a href="#"><img id="logo" src="images/logo.svg"></a>
+        <div id="menu" v-on:click="burgerMenu"><i class="fas fa-bars" v-bind:class="{expanded : expanded }"></i></div>
+        <ul class="navi-toggle" v-if="expanded">
+        <li>ABOUT</li>
+        <li>WORKSHOPS</li>
+        <li>WHY</li>
+         <li>HOW</li>
+         <li>WHERE</li>
+         <li>GET INVOLVED</li>
+    </ul>
+    </nav>
+    <section id="main-img">
+        <h2>COURAGE MAKES CHANGE</h2>
+    </section>
+</main>
+    <script src="js/main.js"></script>
 </body>
 </html>
