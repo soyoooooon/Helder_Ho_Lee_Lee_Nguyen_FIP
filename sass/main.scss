@@ -1,1 +1,37 @@
 @import 'modules/_vars';
+@import 'modules/_nav';
+
+@font-face {
+    font-family: 'Unica One', cursive;
+    src: url("../css/font/UnicaOne-Regular.woff");
+        
+}
+
+
+@font-face {
+    font-family: 'Euphemia';
+    src: url("../css/font/Euphemia-UCAS-Regular.woff");
+        
+}
+
+body{
+width: 100vw;
+
+
+#main-img{
+    background-image: url("../images/Banner.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+h2{
+position: absolute;
+top: 42%;
+left: 11vw;
+
+font-size: 2em;
+font-family: $m-font;
+color: white;
+}
+}
+}

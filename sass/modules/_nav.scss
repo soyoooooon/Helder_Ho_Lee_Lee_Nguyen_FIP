@@ -1,0 +1,46 @@
+#nav-bar{
+
+    width: 100vw;
+    background-color: white;
+    height: 11vh;
+
+    #logo {
+    float: left;
+    width: 55px;
+    margin: 2%;
+  
+    } 
+
+    #menu{
+        width: 100px;
+        height: 80px;
+        position: fixed;
+        z-index: 100;
+        top: 0vh;
+        left:88vw;
+        // border: solid salmon;
+        // transform: translate(-30%,-30%);
+        &:hover{
+          cursor:pointer;}
+        
+    .fas{
+        color: $red;
+        font-size: 2em;
+        margin: 12%;
+    outline: none;
+    transition: all .2s ease-in-out;
+    &.expanded {
+      -webkit-transform: rotateZ(90deg);
+      -ms-transform: rotateZ(90deg);
+      transform: rotateZ(90deg);}
+    }  }
+
+    .navi-toggle{
+        color: $bright-red;
+
+
+        li{
+        font-family: $m-font;
+        }
+    }
+}
