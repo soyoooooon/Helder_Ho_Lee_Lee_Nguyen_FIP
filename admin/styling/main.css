@@ -1,0 +1,225 @@
+html{
+    
+    font-size: 10px;
+}
+
+body{
+    width: 100vW;
+    min-width: 610px;
+    height: 100vH;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+header .logo-title{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    
+    align-items: flex-end;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    list-style: none;
+}
+header nav ul li{
+    text-decoration: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+header nav ul li a:hover{
+    color: blue;
+}
+header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+main{
+    width: 90%;
+    margin: 40px auto;
+}
+
+main h1 {
+    font-size: 3rem;
+    padding: 10px 0;
+}
+
+main h2 {
+    font-size: 2rem;
+    padding: 5px 0;
+}
+
+main p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+main p b{
+    font-weight: bold;
+}
+main p i{
+    color: red;
+    font-size: 1.2rem;
+}
+
+
+/* ### Site-Edit Page ## */
+main .site-nav .sections{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main #hero, #about, #workshop, #why, #how, #where, #join, #footer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto 0;
+}
+
+/* Image boxes */
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.images .image-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.images .image-container .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    height: 200px;
+    width: 248px;
+}
+
+.images .image-container img{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+}
+
+/* Copy(text) boxes */
+.copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.copy .copy-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.copy .copy-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    height: 200px;
+    width: 248px;
+    overflow-y: auto;
+    word-break: keep-all;
+}
+
+.copy .copy-container p{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    word-break: keep-all;
+}
+
+.copy .copy-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.copy .copy-container form textarea {
+    height: 40%;
+}
+
+.copy .copy-container form input {
+    width: 40%;
+}
+
+/* Video boxes */
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.video .video-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 5px;
+}
+
+.video .video-container .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    height: 200px;
+    width: 248px;
+}
+
+.video .video-container video{
+    max-width:100%;
+    max-height:100%;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+}
