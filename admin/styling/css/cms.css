@@ -1,0 +1,287 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px; }
+  header .logo-title {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    align-items: flex-end; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-end;
+      width: 100%;
+      list-style: none; }
+      header nav ul li {
+        text-decoration: none; }
+        header nav ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 1.5rem; }
+          header nav ul li a:hover {
+            color: blue; }
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0 10px; }
+
+.site-preview header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 !important;
+  border: none !important; }
+  .site-preview header img {
+    max-height: 80%;
+    max-width: 100%;
+    padding-left: 10px; }
+  .site-preview header nav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: auto !important; }
+    .site-preview header nav ul {
+      align-items: center;
+      width: auto !important; }
+      .site-preview header nav ul li {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px; }
+.site-preview .hero-section {
+  display: flex;
+  width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .site-preview .hero-section img {
+    max-width: 100%;
+    max-height: 100%; }
+  .site-preview .hero-section h1 {
+    position: absolute;
+    max-width: 100%;
+    color: white;
+    font-size: 34px; }
+.site-preview .about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%; }
+  .site-preview .about-section img {
+    max-width: 100%;
+    max-height: 100%; }
+  .site-preview .about-section .about-inner {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 55%;
+    background-color: #1b1b1b;
+    box-shadow: 0 5px 8px black; }
+    .site-preview .about-section .about-inner .about-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 40px;
+      width: 50%; }
+      .site-preview .about-section .about-inner .about-text h2 {
+        color: red;
+        text-transform: uppercase;
+        font-size: 24px; }
+      .site-preview .about-section .about-inner .about-text p {
+        color: white;
+        font-size: 12px;
+        line-height: 1.5; }
+    .site-preview .about-section .about-inner .about-video {
+      display: flex;
+      background-color: black;
+      width: 50%; }
+.site-preview .workshop-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%; }
+  .site-preview .workshop-section img {
+    max-width: 100%;
+    max-height: 100%; }
+  .site-preview .workshop-section .workshop-inner {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%; }
+    .site-preview .workshop-section .workshop-inner .single-workshop {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 58%;
+      height: 100%; }
+      .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container {
+        height: 80%;
+        width: 80%;
+        background-color: white; }
+        .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container .text-container {
+          display: flex;
+          flex-direction: column;
+          width: 85%;
+          height: 100%;
+          margin: auto;
+          justify-content: center; }
+          .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container .text-container h2 {
+            color: red;
+            text-transform: uppercase;
+            font-size: 24px;
+            padding-bottom: 10px; }
+          .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container .text-container p {
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 1.8; }
+            .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container .text-container p b {
+              font-size: 28px; }
+          .site-preview .workshop-section .workshop-inner .single-workshop .workshop-container .text-container a {
+            font-size: 11px;
+            padding: 8px 0;
+            text-align: center;
+            margin-top: 10px;
+            border: 1px solid black;
+            color: black;
+            text-decoration: none;
+            width: 90px;
+            font-style: italic; }
+    .site-preview .workshop-section .workshop-inner .workshop-list {
+      width: 42%;
+      overflow-y: scroll;
+      background-color: white; }
+      .site-preview .workshop-section .workshop-inner .workshop-list .row {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+        border-bottom: .5px solid grey; }
+        .site-preview .workshop-section .workshop-inner .workshop-list .row .date {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 25%;
+          background-color: #c7d1d1;
+          border-right: .5px solid grey; }
+          .site-preview .workshop-section .workshop-inner .workshop-list .row .date p {
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 5px; }
+            .site-preview .workshop-section .workshop-inner .workshop-list .row .date p b {
+              font-size: 28px; }
+        .site-preview .workshop-section .workshop-inner .workshop-list .row .workshop-info {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 75%; }
+          .site-preview .workshop-section .workshop-inner .workshop-list .row .workshop-info p {
+            padding: 20px;
+            line-height: 1.5;
+            font-size: 11px; }
+.site-preview .where-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  height: 600px; }
+  .site-preview .where-section .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: inherit;
+    background-image: url("../../../images/map_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .site-preview .where-section .map .map-svg {
+      max-width: 90%;
+      max-height: 90%; }
+  .site-preview .where-section .map-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: inherit;
+    background-image: url("../../../images/where_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .site-preview .where-section .map-info .info-container {
+      width: 80%;
+      height: 70%;
+      background-color: white;
+      box-shadow: 0 5px 8px black; }
+      .site-preview .where-section .map-info .info-container .text-container {
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 25px; }
+        .site-preview .where-section .map-info .info-container .text-container h2 {
+          color: red;
+          text-transform: uppercase;
+          font-size: 24px;
+          padding-bottom: 20px; }
+        .site-preview .where-section .map-info .info-container .text-container p {
+          font-size: 12px;
+          line-height: 1.5;
+          padding-bottom: 20px; }
+        .site-preview .where-section .map-info .info-container .text-container ul {
+          list-style-type: disc;
+          font-size: 12px;
+          font-style: italic;
+          margin-left: 15px;
+          line-height: 1.8; }
+
+html {
+  font-size: 10px; }
+
+body {
+  width: 100vW;
+  min-width: 610px;
+  height: 100vH;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden; }
+
+.cms-section {
+  width: 25%;
+  border-right: 1px solid black; }
+
+.site-preview {
+  width: 73%;
+  overflow: hidden; }
+
+/*# sourceMappingURL=cms.css.map */

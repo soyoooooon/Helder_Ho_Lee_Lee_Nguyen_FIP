@@ -1,0 +1,292 @@
+.site-preview{
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+
+        padding: 0 !important;
+        border: none !important;
+
+        
+        img {
+            max-height: 80%;
+            max-width: 100%;
+            padding-left: 10px;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: auto !important;
+
+            ul{
+                align-items: center;
+                width: auto !important;
+                li{
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: bold;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .hero-section{
+        display: flex;
+        width: 100%;
+        max-height: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        h1{
+            position: absolute;
+            max-width: 100%;
+            color: white;
+            font-size: 34px;
+        }
+    }
+    .about-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .about-inner{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            height: 55%;
+            background-color: rgb(27, 27, 27);
+            box-shadow: 0 5px 8px black;
+
+            .about-text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 40px;
+                width: 50%;
+
+                h2{
+                    color: red;
+                    text-transform: uppercase;
+                    font-size: 24px;
+                }
+
+                p{
+                    color: white;
+                    font-size: 12px;
+                    line-height: 1.5;
+                }
+            }
+            .about-video{
+                display: flex;
+                background-color: black;
+                width: 50%;
+            }
+        }
+    }
+    .workshop-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .workshop-inner{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+
+            .single-workshop{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 58%;
+                height: 100%;
+
+                .workshop-container{
+                    height: 80%;
+                    width: 80%;
+                    background-color: white;
+
+                    .text-container{
+                        display: flex;
+                        flex-direction: column;
+                        width: 85%;
+                        height: 100%;
+                        margin: auto;
+                        justify-content: center;
+
+                        h2{
+                            color: red;
+                            text-transform: uppercase;
+                            font-size: 24px;
+                            padding-bottom: 10px;
+                        }
+                        p{
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            line-height: 1.8;
+
+                            b{
+                                font-size: 28px;
+                            }
+                        }
+                        a{
+                            font-size: 11px;
+                            padding: 8px 0;
+                            text-align: center;
+                            margin-top: 10px;
+                            border: 1px solid black;
+                            color: black;
+                            text-decoration: none;
+                            width: 90px;
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+            .workshop-list{
+                width: 42%;
+                overflow-y: scroll;
+                background-color: white;
+
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    height: 30%;
+                    border-bottom: .5px solid grey;
+
+                    .date{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 25%;
+                        background-color: rgb(199, 209, 209);
+                        border-right: .5px solid grey;
+                        
+                        p{
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            padding: 5px;
+
+                            b{
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                    .workshop-info{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 75%;
+
+                        p{
+                            padding: 20px;
+                            line-height: 1.5;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .where-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        height: 600px;
+
+        .map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 55%;
+            height: inherit;
+            background-image: url('../../../images/map_background.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .map-svg{
+                max-width: 90%;    
+                max-height: 90%;
+            }
+        }
+        .map-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;;
+            width: 45%;
+            height: inherit;
+            background-image: url('../../../images/where_background.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+            .info-container{
+                width: 80%;
+                height: 70%;
+                background-color: white;
+                box-shadow: 0 5px 8px black;
+
+                .text-container{
+                    padding-left: 20px;
+                    padding-right: 10px;
+                    padding-top: 25px;
+
+                    h2{
+                        color: red;
+                        text-transform: uppercase;
+                        font-size: 24px;
+                        padding-bottom: 20px;
+                    }
+                    p{
+                        font-size: 12px;
+                        line-height: 1.5;
+                        padding-bottom: 20px;
+                    }
+                    ul{
+                        list-style-type: disc;
+                        font-size: 12px;
+                        font-style: italic;
+                        margin-left: 15px;
+                        line-height: 1.8;
+                    }
+                }
+            }
+        }
+    }
+}
