@@ -8,5 +8,6 @@ Authous
     
     Helder, Jeffrey
     Ho, Daffodil
+    Lee, Soyoon
     Lee, Sujin
     Nguyen, Megan
