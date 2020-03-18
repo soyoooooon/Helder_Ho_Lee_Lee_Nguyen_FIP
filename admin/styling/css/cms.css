@@ -203,6 +203,118 @@ header {
             padding: 20px;
             line-height: 1.5;
             font-size: 11px; }
+.site-preview .why-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%; }
+  .site-preview .why-section img {
+    max-width: 100%;
+    max-height: 100%; }
+  .site-preview .why-section h1 {
+    top: 0;
+    padding-top: 45px;
+    width: 85%;
+    margin: auto;
+    text-align: end;
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase; }
+  .site-preview .why-section .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    margin: auto;
+    width: 70%;
+    height: 80%; }
+  .site-preview .why-section .is, .site-preview .why-section .not {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white; }
+    .site-preview .why-section .is h2, .site-preview .why-section .not h2 {
+      color: white;
+      font-size: 18px;
+      text-transform: uppercase;
+      padding-bottom: 20px; }
+      .site-preview .why-section .is h2 i, .site-preview .why-section .not h2 i {
+        color: red; }
+    .site-preview .why-section .is .inner, .site-preview .why-section .not .inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .site-preview .why-section .is .inner .fact-container, .site-preview .why-section .not .inner .fact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 23%;
+        height: 200px;
+        border: 1.5px solid white;
+        background-color: rgba(255, 255, 255, 0.24);
+        box-shadow: 0 5px 8px black; }
+        .site-preview .why-section .is .inner .fact-container img, .site-preview .why-section .not .inner .fact-container img {
+          display: flex;
+          width: 140px;
+          height: 140px;
+          background-color: rgba(255, 0, 0, 0.151);
+          border: 1px solid red;
+          border-radius: 75px; }
+        .site-preview .why-section .is .inner .fact-container p, .site-preview .why-section .not .inner .fact-container p {
+          color: white;
+          font-size: 16px;
+          line-height: 1.4; }
+  .site-preview .why-section a {
+    font-size: 11px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    width: 115px;
+    font-style: italic; }
+.site-preview .how-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  height: 500px;
+  background-color: #131313; }
+  .site-preview .how-section .how-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 80%;
+    height: 80%; }
+    .site-preview .how-section .how-container .inner-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border: 4px solid white;
+      width: 45%; }
+      .site-preview .how-section .how-container .inner-container h2 {
+        color: red;
+        font-size: 24px;
+        padding: 40px 20px;
+        line-height: 1.5; }
+      .site-preview .how-section .how-container .inner-container p {
+        color: white;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 20px; }
+      .site-preview .how-section .how-container .inner-container a {
+        color: white;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 20px; }
 .site-preview .where-section {
   display: flex;
   flex-direction: row;
@@ -260,6 +372,95 @@ header {
           font-style: italic;
           margin-left: 15px;
           line-height: 1.8; }
+.site-preview .join-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  height: 300px; }
+  .site-preview .join-section .join-container {
+    height: 80%;
+    padding-left: 40px; }
+    .site-preview .join-section .join-container h1 {
+      padding-top: 20px;
+      color: red;
+      font-size: 30px;
+      line-height: 1.2;
+      border-bottom: grey solid 1.5px;
+      width: 50%;
+      text-transform: uppercase; }
+    .site-preview .join-section .join-container p {
+      padding-top: 40px;
+      font-size: 14px;
+      line-height: 1.4; }
+.site-preview .insta-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 310px;
+  overflow-x: auto; }
+  .site-preview .insta-section .insta-block {
+    background-color: #a7a7a7;
+    width: 200px;
+    min-width: 200px;
+    height: 300px;
+    margin-right: 5px; }
+.site-preview footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white; }
+  .site-preview footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 35px;
+    padding-left: 20px; }
+    .site-preview footer .newsletter h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      padding-bottom: 20px; }
+    .site-preview footer .newsletter p, .site-preview footer .newsletter label {
+      font-size: 12px;
+      line-height: 1.4;
+      padding-bottom: 30px; }
+    .site-preview footer .newsletter input {
+      background-color: transparent;
+      color: white;
+      font-size: 12px;
+      line-height: 1.2;
+      width: 80%;
+      padding: 5px; }
+    .site-preview footer .newsletter a {
+      margin-top: 30px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      border: 1px solid white;
+      width: 75px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.199); }
+  .site-preview footer .footer-text {
+    width: 45%;
+    padding-right: 20px; }
+    .site-preview footer .footer-text .social {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      height: 40px;
+      margin-top: 20px; }
+      .site-preview footer .footer-text .social .social-icon {
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        margin-right: 10px; }
+    .site-preview footer .footer-text p {
+      font-size: 12px;
+      line-height: 1.5;
+      padding-bottom: 20px; }
 
 html {
   font-size: 10px; }

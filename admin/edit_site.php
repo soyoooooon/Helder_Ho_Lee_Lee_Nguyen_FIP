@@ -19,33 +19,218 @@
 <?php include_once 'templates/header.php'; ?>
     <main>
         <div class="cms-section">
-            <h1>Controls</h1>
-            <h2>Logo</h2>
-            <input type="file">
-            <h2>Hero-Banner</h2>
-            <h3>Text</h3>
-            <input type="text">
-            <h3>Web-background</h3>
-            <input type="file">
-            <h3>Mobile-background</h3>
-            <input type="file">
-            <h2>About-Us</h2>
-            <h3>Title</h3>
-            <input type="text">
-            <h3>Discription</h3>
-            <input type="text">
-            <h3>Video</h3>
-            <input type="file">
-            <h2>Workshops</h2>
-            <h3>Add new</h3>
-            <label for="month">Month</label>
-            <input type="text" name="month">
-            <label for="day">Day</label>
-            <input type="text" name="day">
-            <label for="time">Time</label>
-            <input type="text" name="time" placeholder="HH:MM - HH:MM">
-            <label for="location">Location</label>
-            <input type="text" name="location">
+            <div class="header">
+                <h2>Logo</h2>
+                <form action="edit_site.php" method="post">
+                    <?php echo !empty($message)? $message:'';?>
+                    <input type="file">
+                    <button type="submit" name="logo">Save</button>
+                </form>
+            </div>
+            <div class="hero">
+                <div class="banner">
+                    <h2>Banner-Text</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="text">
+                        <button type="submit" name="banner-text">Save</button>
+                    </form>
+                </div>
+                <div class="banner">
+                    <h2>Banner-Web</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="file">
+                        <button type="submit" name="banner-web">Save</button>
+                    </form>
+                </div>
+                <div class="banner">
+                    <h2>Banner-Mobile</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="file">
+                        <button type="submit" name="banner-mobile">Save</button>
+                    </form>
+                </div>
+            </div>
+            <div class="about-us">
+                <div class="about">
+                    <h2>About-Title</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="text">
+                        <button type="submit" name="about-title">Save</button>
+                    </form>
+                </div>
+                <div class="about">
+                    <h2>About-Text</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="text">
+                        <button type="submit" name="about-text">Save</button>
+                    </form>
+                </div>
+                <div class="about">
+                    <h2>About-Video</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="file">
+                        <button type="submit" name="about-video">Save</button>
+                    </form>
+                </div>
+                <div class="about">
+                    <h2>About-Background</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="file">
+                        <button type="submit" name="about-background">Save</button>
+                    </form>
+                </div>
+            </div>
+            <div class="events">
+                <div class="event">
+                    <h2>Add-Event</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <span>
+                            <label for="month">Month:</label>
+                            <select name="month">
+                                <option value="01">Jan</option>
+                                <option value="02">Feb</option>
+                                <option value="03">Mar</option>
+                                <option value="04">Apr</option>
+                                <option value="05">May</option>
+                                <option value="06">Jun</option>
+                                <option value="07">Jul</option>
+                                <option value="08">Aug</option>
+                                <option value="09">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select> 
+                        </span>
+                        <span>
+                            <label for="day">Day:</label>
+                            <select name="day">
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </span>
+                        <label for="start-time">Start Time:</label>
+                        <input type="time" name="start-time" required>
+
+                        <label for="end-time">End Time:</label>
+                        <input type="time" name="end-time" required>
+
+                        <label for="location">Location Name:</label>
+                        <input type="text" name="location">
+
+                        <label for="location">Location Address:</label>
+                        <input type="text" name="location">
+
+                        <button type="submit" name="event-add">Save</button>
+                    </form>
+                </div>
+                <div class="event">
+                    <h2>Remove-Event</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <span>
+                            <label for="month">Month:</label>
+                            <select name="month">
+                                <option value="01">Jan</option>
+                                <option value="02">Feb</option>
+                                <option value="03">Mar</option>
+                                <option value="04">Apr</option>
+                                <option value="05">May</option>
+                                <option value="06">Jun</option>
+                                <option value="07">Jul</option>
+                                <option value="08">Aug</option>
+                                <option value="09">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select> 
+                        </span>
+                        <span>
+                            <label for="day">Day:</label>
+                            <select name="day">
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="04">4</option>
+                                <option value="05">5</option>
+                                <option value="06">6</option>
+                                <option value="07">7</option>
+                                <option value="08">8</option>
+                                <option value="09">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </span>
+                        
+                        <button type="submit" name="event-add">Save</button>
+                    </form>
+                </div> 
+                <div class="event">
+                    <h2>Event-Background</h2>
+                    <form action="edit_site.php" method="post">
+                        <?php echo !empty($message)? $message:'';?>
+                        <input type="file">
+                        <button type="submit" name="event-background">Save</button>
+                    </form>
+                </div>             
+            </div>
+            
 
         </div>
         <div class="site-preview">
@@ -164,46 +349,52 @@
 
             <div class="why-section">
                 <h1>why</h1>
-                <div class="is">
-                    <h2>hiv/aids is transmitted</h2>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Unprotected sex</p>
+                <img src="../images/why_background.jpg" alt="old metal background">
+                <div class="inner-container">
+                    <div class="is">
+                        <h2>hiv/aids is transmitted</h2>
+                        <div class="inner">
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Unprotected sex</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Sharing needles</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Non-sterile</br>instruments</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Pregnancy</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Sharing needles</p>
+                    <div class="not">
+                        <h2>hiv/aids is <i>not</i> transmitted</h2>
+                        <div class="inner">
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Through food</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>With a kiss</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>Touching</p>
+                            </div>
+                            <div class="fact-container">
+                                <img src="#" alt="">
+                                <p>In the pool</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Non-sterile</br>instruments</p>
-                    </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Pregnancy</p>
-                    </div>
-                </div>
-                <div class="not">
-                    <h2>hiv/aids is <i>not</i> transmitted</h2>
-
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Through food</p>
-                    </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>With a kiss</p>
-                    </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>Touching</p>
-                    </div>
-                    <div class="fact-container">
-                        <img src="#" alt="">
-                        <p>In the pool</p>
-                    </div>
-                </div>
-                <a href="#">Find out more</a>
+                    <a href="#">Find out more</a>
+                </div>      
             </div>
 
             <div class="how-section">
@@ -266,11 +457,16 @@
             </div>
 
             <div class="insta-section">
-                <div class="inta-block"></div>
-                <div class="inta-block"></div>
-                <div class="inta-block"></div>
-                <div class="inta-block"></div>
-                <div class="inta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
+                <div class="insta-block"></div>
             </div>
 
             <footer>
