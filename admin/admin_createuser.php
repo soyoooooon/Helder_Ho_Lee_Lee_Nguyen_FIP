@@ -3,7 +3,7 @@
     confirm_logged_in();
     confirm_admin();
 
-    if(isset($_POST['submit'])){
+    if(isset($_POST['create'])){
         $fname = trim($_POST['fname']);
         $lname = trim($_POST['lname']);
         $email = trim($_POST['email']);
@@ -49,7 +49,7 @@
                 <label>UserRights:</label>
                 <input type="text" name="rights" value=""></br></br>
 
-                <button type="submit" name="submit">Create User</button>
+                <button type="submit" name="create">Create User</button>
                 
             </form>
         </div>

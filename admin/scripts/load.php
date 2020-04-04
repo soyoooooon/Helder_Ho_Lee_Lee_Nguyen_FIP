@@ -8,6 +8,8 @@ define('ADMIN_SCRIPT_PATH', ADMIN_PATH.'/scripts');
 
 session_start();
 
+require_once ABSPATH.'/getPageInfo.php';
+require_once ABSPATH.'/update_page.php';
 require_once ABSPATH.'/connect.php';
 require_once ABSPATH.'/createuser.php';
 require_once ABSPATH.'/deleteuser.php';
