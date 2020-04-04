@@ -3,7 +3,7 @@
     confirm_logged_in();
     confirm_admin();
 
-    if(isset($_POST['submit'])){
+    if(isset($_POST['create'])){
         $fname = trim($_POST['fname']);
         $lname = trim($_POST['lname']);
         $email = trim($_POST['email']);
@@ -24,8 +24,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="styling/reset.css">
-    <link rel="stylesheet" type="text/css" href="styling/main.css">
+    <link rel="stylesheet" type="text/css" href="styling/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="styling/css/main.css">
     <title>Document</title>
 </head>
 <body>
@@ -49,7 +49,7 @@
                 <label>UserRights:</label>
                 <input type="text" name="rights" value=""></br></br>
 
-                <button type="submit" name="submit">Create User</button>
+                <button type="submit" name="create">Create User</button>
                 
             </form>
         </div>

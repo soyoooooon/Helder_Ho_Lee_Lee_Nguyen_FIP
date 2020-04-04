@@ -1,0 +1,90 @@
+.cms-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    
+
+    form{ 
+        display: flex;
+        flex-direction: column;
+
+        p{
+            font-size: 12px;
+            color: red;
+        }
+        label{
+            padding: 2px 0;
+            font-size: 12px;
+        }
+        input[type=submit]{
+            height: 25px;
+            width: 75px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+
+        span{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .time{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+
+    .cms-inner{
+        width: 90%;
+
+         .hero, .about-us, .events, .why, .how, .map, .join-us, .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-bottom: 1px solid black;
+        }
+
+        .header {
+            height: 100px;
+        }
+        .hero{
+            height: 640px;
+        }
+        .about-us{
+            height: 536px;
+        }
+        .events{
+            height: 422px;
+        }
+        .why{
+            height: 760px;
+            margin-bottom: 196px;
+        }
+        .how{
+            height: 500px;
+        }
+        .map{
+            height: 600px;
+        }
+        .join-us{
+            height: 300px;
+            margin-bottom: 380px;
+        }
+        .footer{
+            height: 220px;
+        }
+
+        .logo, .banner, .about, .event, .whys, .box, .maps, .join, .newsletter, .foot{
+            padding: 5px;
+            border: 1px solid red;
+        }
+    }
+}

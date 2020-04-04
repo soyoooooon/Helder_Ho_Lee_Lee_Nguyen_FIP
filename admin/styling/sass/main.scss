@@ -1,0 +1,13 @@
+@import 'modules/_header';
+@import 'modules/_admin';
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100vW;
+    min-width: 610px;
+    height: 100vH;
+    font-family: Arial, Helvetica, sans-serif;
+}

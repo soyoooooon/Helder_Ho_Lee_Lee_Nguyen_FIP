@@ -1,0 +1,31 @@
+@import 'modules/_header';
+@import 'modules/_cms';
+@import 'modules/_site-pre';
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100vW;
+    max-width: 1315px;
+    height: 100vH;
+    margin: auto;
+    overflow-x: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.cms-section{
+    width: 20%;
+    min-width: 250px;
+    border-right: 1px solid black;
+}
+
+.site-preview{
+    width: 1065px;
+}
