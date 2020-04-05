@@ -6,8 +6,8 @@ Red Ribbon Youth
     
 Admin Default Login
     
-    Username: Admin
-    Password: Admin
+    Username: admin
+    Password: admin
     
 Authous
     
