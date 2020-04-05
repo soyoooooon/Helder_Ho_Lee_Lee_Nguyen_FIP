@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 04, 2020 at 01:32 PM
+-- Generation Time: Apr 04, 2020 at 08:13 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -89,7 +89,17 @@ CREATE TABLE IF NOT EXISTS `events` (
   `month` text NOT NULL,
   `day` tinyint(2) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `events`
+--
+
+INSERT INTO `events` (`id`, `name`, `address`, `start`, `end`, `month`, `day`) VALUES
+(1, 'London District Catholic School Board', 'Catholic Central High School', '10:00 am', '11:30 am', 'April', 29),
+(2, 'Coffee Cure Talk', 'Fanshawe College Main Campus', '11:30 am', '03:30 pm', 'May', 5),
+(3, 'Meet And Greet', 'Victoria Park London ON.', '11:45 am', '03:00 pm', 'May', 10),
+(4, 'Prevention People', 'Western University', '11:00 am', '02:00 pm', 'June', 9);
 
 -- --------------------------------------------------------
 
@@ -371,7 +381,7 @@ CREATE TABLE IF NOT EXISTS `tbl_users` (
 
 INSERT INTO `tbl_users` (`user_id`, `user_name`, `user_pass`, `user_email`, `user_fname`, `user_lname`, `this_login`, `last_login`, `reg_date`, `user_ip`, `last_ip`, `admin_rights`) VALUES
 (1, 'admin', '$2y$10$QNZcSlceTwLsI0fu/SoPKe6A43Vh5PUA1a3pJdLsKtjN0Jd1jBc/y', 'admin@rry.com', 'admin', 'admin', '2020-04-02 19:53:24', '2020-03-15 11:54:42', '0001-01-01 01:01:01', '::1', '::1', 1),
-(2, 'JeffreyHelder', '$2y$10$Bn3mXtiA/yVJXtvSLQZJDeDH1h0iaNaLXZd9o1.4tC83WdZEHCdZi', 'jeffrey.d.helder@gmail.com', 'Jeffrey', 'Helder', '2020-03-15 11:48:36', '2020-03-14 20:31:32', '2020-03-14 12:23:22', '::1', '::1', 2);
+(2, 'JeffreyHelder', '$2y$10$Bn3mXtiA/yVJXtvSLQZJDeDH1h0iaNaLXZd9o1.4tC83WdZEHCdZi', 'jeffrey.d.helder@gmail.com', 'Jeffrey', 'Helder', '2020-04-04 16:10:17', '2020-03-15 11:48:36', '2020-03-14 12:23:22', '::1', '::1', 2);
 
 -- --------------------------------------------------------
 

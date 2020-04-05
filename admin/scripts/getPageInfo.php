@@ -99,6 +99,17 @@
             return false;
         }
     }
+    function getMaps(){
+        $pdo = Database::getInstance()->getConnection();
+        $getMap = 'SELECT * FROM downtown, east_london, masonville, near_south, near_west, northeast_london, southwest_london, west_london, whitehills';
+        $maps = $pdo->prepare($getMap);
+        $maps->execute();
+        if($maps){
+            return $maps;
+        }else{
+            return false;
+        }
+    }
     function getJoin(){
         $pdo = Database::getInstance()->getConnection();
         $getJoin = 'SELECT * FROM join_us';
