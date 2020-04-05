@@ -4,6 +4,11 @@ Red Ribbon Youth
 
     Campaign page to education about, and decrease the stigma of, HIV/AIDS/HepC
     
+Admin Default Login
+    
+    Username: Admin
+    Password: Admin
+    
 Authous
     
     Helder, Jeffrey
