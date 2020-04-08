@@ -13,9 +13,9 @@
     src: url("../css/font/Euphemia-UCAS-Regular.woff");
         
 }
-
 body{
-width: 100vw;
+    width: 100vw;
+    overflow-x: hidden;
 
 
 #main-img{
@@ -31,7 +31,52 @@ left: 11vw;
 
 font-size: 2em;
 font-family: $m-font;
-color: white;
-}
-}
+color: white;}
+} //main-img done
+
+
+#about{
+    background-image: url("../images/about_background.jpg");
+   background-size: cover;
+   background-position: center;
+    width: 100vw;
+ 
+    display: flex;
+    flex-direction: column;
+
+   .about-rry{
+       width: 86vw;
+       height: 50vh;
+       background-color: $dark;
+       margin-top: 10vh;
+       -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.6);
+        box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.6);
+    
+        h2{
+        font-family: $m-font;
+        font-weight: bolder;
+        color: $bright-red;
+        font-size: 3em;
+        padding: 5%; }
+        p{
+        font-family: $p-font;
+        color:white;
+        font-size: 1rem;
+        width: 70vw;
+        line-height: 30px;
+        padding: 5%; }
+    
+    }
+
+       .video1{
+           padding-top: 10vh;
+           width: 100vw;
+           height: 55vh;
+           video{
+            width: 100vw; }
+       } 
+    }
+
+
 }
