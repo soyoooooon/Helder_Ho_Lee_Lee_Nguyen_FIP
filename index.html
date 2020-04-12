@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-  <script src="https://unpkg.com/vue-slick-carousel"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+  <script src="https://cdn.rawgit.com/SSENSE/vue-carousel/6823411d/dist/vue-carousel.min.js"></script>
+  
     <title>Red Ribbon Youth</title>
 </head>
 <body>
@@ -223,25 +225,37 @@
     <section id="insta">
         <div class='insta-info'>
             <h2>JOIN US<br>ON INSTAGRAM</h2>
-            <p>Pass along your courage with #redribbonyouth.<br>
+            <p>Pass along your courage with <span>#redribbonyouth.</span><br>
                 Be brave enough to say no to unprotected sex, to say yes to get tested.<br>And inspired others with your story.</p>
          </div>
          <!--test-->
-         <div class="slides">
-            <transition-group 
-              name="slide"
-              mode="out-in"
-              enter-class="slide-in"
-              leave-class="slide-out"
-              enter-active-class="animated slide-in-active"
-              leave-active-class="animated slide-out-active">
-              <div v-for="index in slides"
-                v-if="index == active"
-                :key="index">Slide  {{ index }}</div>
-              </transition-group></div>
-              <button class="prev"  @click="move(-1)">Prev</button>
-              <button class="next" @click="move(1)">Move</button>
-         
+         <carousel v-bind:navigation-enabled="true">
+            
+            
+            <slide class="here">
+           
+            </slide>
+            <slide class="here-two">
+  
+            </slide>
+            <slide class="here-three">
+              
+            </slide>
+            <slide class="here-four">
+             
+            </slide>
+            <slide class="here-five">
+
+            </slide>
+            <slide class="here-six">
+
+            </slide>
+            <slide class="here-seven">
+
+            </slide>
+            <slide class="here-eight">
+                
+            </slide>
      </section>
     <!---news-->
    <footer>

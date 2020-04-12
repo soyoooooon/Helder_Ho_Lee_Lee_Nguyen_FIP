@@ -1,12 +1,16 @@
 let app = new Vue({
 
     el: '#app',
+    
+    components: {
+        'carousel': VueCarousel.Carousel,
+        'slide': VueCarousel.Slide
+      },
   
     data:{
         expanded:false,
 
-        slides: 5,
-        active: 5,
+       
         
 
     },
@@ -41,11 +45,7 @@ let app = new Vue({
             this.$refs.locationThree.innerHTML = 'Central Spa Bathhouse';
         },
 
-        move() {
-          
-            
-          }
-
+     
         
 
     },
