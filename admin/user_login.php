@@ -1,5 +1,5 @@
 <?php
-    require_once 'scripts\load.php';
+    require_once 'scripts/load.php';
     $ip = $_SERVER['REMOTE_ADDR'];
 
     if(isset($_POST['submit'])){
