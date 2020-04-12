@@ -2,7 +2,7 @@
 @import 'modules/_nav';
 
 @font-face {
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One';
     src: url("../css/font/UnicaOne-Regular.woff");
         
 }
@@ -375,7 +375,15 @@ color: white;}
                         font-family: $p-font;
                         margin-left: 2%;
                         margin-top: -10px;
+
+                        a{
+                        text-decoration: none;
+                        color:white;
+                        }
                         
+                    }
+                    &hover{
+                        cursor: pointer;
                     }
             }
         
@@ -428,7 +436,15 @@ color: white;}
                 color:white;
                 font-style:italic;
                 font-family: $p-font;
+
+                a{
+                text-decoration: none;
+                color:white;
+                }
                 
+            }
+            &hover{
+                cursor: pointer;
             }
                     }
 
@@ -472,6 +488,9 @@ color: white;}
                     font-family: $p-font; }
 
             
+                }
+                &hover{
+                    cursor: pointer;
                 }
 
         }//testing
@@ -698,6 +717,9 @@ color: white;}
                     color: white;
                     font-family: $p-font;
                     font-size: 15px; }
+                    &hover{
+                        cursor: pointer;
+                    }
                  }//form
                 }//news
         
@@ -991,7 +1013,7 @@ html,body{
         flex-direction: row;
      .about-rry{
          width: 48%;
-        height: 349px;
+        height: 360px;
      }
     .video1{
         width: 50%; 
@@ -1002,20 +1024,23 @@ html,body{
 
     #workshop{
         width: 100%;
+        height: 600px;
         display:flex;
         flex-direction: row;
         #workshop-bg{
+            height: 600px;
             .workshop-banner{
+                height: 500px;
                 h2{font-size:2em;}
             }
         }
     
         #workshop-table{
-            height: 400px;
+            height: 600px;
             #row{
-                height: 135px;
+                height: 200px;
                 .date,.location{
-                    height: 135px;
+                    height: 200px;
                 }
             }
         }
@@ -1159,32 +1184,28 @@ html,body{
     
         #workshop{
             width: 100%;
+            height: 600px;
             display:flex;
             flex-direction: row;
             #workshop-bg{
-                height: 550px;
+                height: 600px;
                 .workshop-banner{
-                    height: 450px;
+                    height: 500px;
                     h2{font-size:2em;}
-                    p{font-size:1.3em;}
-                    .find-out{
-                        margin-top: 45px;
-                    }
-
                 }
             }
         
             #workshop-table{
-                height: 550px;
+                height: 600px;
                 #row{
-                    height: 186px;
+                    height: 200px;
                     .date,.location{
-                        h2,p{margin-top: 40px;}
-                        height: 186px;
+                        height: 200px;
                     }
                 }
             }
         }//workshop
+    
     
     
         #why{
