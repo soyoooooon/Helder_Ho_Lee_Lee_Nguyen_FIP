@@ -546,7 +546,7 @@ color: white;}
 
         #insta{
             width: 100%;
-            height:600px;
+            height:830px;
             .insta-info{
                 h2{margin-left: 10%;
                     margin-top: 40px;
@@ -566,41 +566,84 @@ color: white;}
                 font-family: $p-font;
                 margin-left: 10%;
                 margin-top: 30px;
+                span{color: $bright-red;}
                 }
             }
+          
 
-            .slides {
-                font-size: 40px;
+           .VueCarousel{
+               position: relative;
+               width: 85vw;
+               margin: 115px auto 0;
+            
+           
+           }
+            
+            .here{
+                background-image: url(../images/Instagram-Stories.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                // margin-right: 5px;
+                height: 400px;
+              display: flex; }
+            .here-two{
+                background-image: url(../images/Instagram-Stories-2.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex; }
+            .here-three{
+                background-image: url(../images/Instagram-post.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
                 display: flex;
-                height: 100%;
-                align-items: center;
-                justify-content: center;
-                font-weight: bold;}
+            }
+            .here-four{
+                background-image: url(../images/Instagram-post-2.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex;
+            }
+            .here-five{
+                background-image: url(../images/Instagram-post-3.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex;
+            }
+            .here-six{
+                background-image: url(../images/Instagram-post-4.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex;
+            }
+            .here-seven{
+                background-image: url(../images/Instagram-post-5.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex;
+            }
+            .here-eight{
+                background-image: url(../images/Instagram-post-6.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 400px;
+                display: flex;
 
-                .animated {
-                    transition: all 400ms;
-                    position: absolute;
-                    transform: translate(-50%, -50%);
-                  }
-                  
-                  .slide-in {
-                    opacity: 0;
-                    transform: translate(-40%, -50%);
-                  }
-                  
-                  .slide-in-active {
-                    transition-delay: 150ms;
-                  }
-                  
-                  .slide-out {
-                    opacity: 1;
-                  }
-                  
-                  .slide-out-active {
-                    opacity: 0;
-                    transform: translate(-60%, -50%);
-                  }
-                
+            }
+           
                 
 
         }//insta hold on..
@@ -773,6 +816,18 @@ color: white;}
     }
   }
 
+  #insta{
+
+
+    .VueCarousel{
+        width:90%;
+        margin-left: 5%;
+        .here{
+        width: 100%;
+        margin-left: 7%;
+        }
+    }
+  }
 
     footer{
         #social{
@@ -878,10 +933,21 @@ html,body{
 }
 
 #insta{
-    height: 750px;
+    height: 830px;
 
     .insta-info{
         h2{font-size: 2.5em; color: $red;}
+    }
+
+    .VueCarousel{
+        width:90%;
+        margin-left: 5%;
+        margin-top: 45px;
+
+        .here{
+            width: 100%;
+            margin-left: 7%;
+        }
     }
 }//insta...a....
 
@@ -957,10 +1023,12 @@ html,body{
 
 
     #why{
-        height: 1500px;
+        height: 1700px;
         #is{
-            height: 550px;
-            h2{font-size: 2.3em;}
+            height: 650px;
+            padding-top: 60px;
+            h2{font-size: 2.5em;
+                margin-bottom: 100px;}
     
             #cont1{padding-top: 30px;
                 .unprotect,.addict,.needle,.pregnant{
@@ -968,7 +1036,7 @@ html,body{
         }
         #not{
            
-            h2{font-size: 2.3em; padding-top: 80px;} 
+            h2{font-size: 2.5em; padding-top: 80px;} 
             #cont2{padding-top: 80px;
                 .food,.kiss,.touch,.pool{
                     h3{margin-top:-70px; font-size: 1.3em;}}
@@ -998,7 +1066,7 @@ html,body{
             height:500px;
             h2{font-size:1.7em; margin-bottom: 40px; line-height: normal;}
     
-            .see-more{margin-top: 93px;}
+            .see-more{margin-top: 78px;}
         }
     }//testing
 
@@ -1019,12 +1087,27 @@ html,body{
     }
     
     #insta{
-        height: 750px;
+        height: 1100px;
     
         .insta-info{
             h2{font-size: 2.5em; color: $red;}
         }
-    }//insta...a....
+
+        .VueCarousel{
+            width:90%;
+        margin-left: 5.5%;
+        margin-top: 65px;
+
+        .here,.here-two,.here-three,.here-four,.here-five,.here-six,.here-seven,.here-eight
+        {
+            width: 100%;
+            height: 700px;
+            background-size: contain;
+        }
+        .here{margin-left: 5%;}
+        }
+
+    }//insta...a..
     
     footer{
         display:flex;
@@ -1167,10 +1250,23 @@ html,body{
         }
         
         #insta{
-            height: 750px;
+            height: 1400px;
         
             .insta-info{
                 h2{font-size: 2.5em; color: $red;}
+            }
+
+            .VueCarousel{
+                width:90%;
+            margin-left: 5.5%;
+            margin-top: 65px;
+    
+            .here,.here-two,.here-three,.here-four,.here-five,.here-six,.here-seven,.here-eight
+            {
+                width: 100%;
+                height: 900px;
+                background-size: contain;
+            }
             }
         }//insta...a....
         
