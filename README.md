@@ -19,6 +19,7 @@ To view website with access to the custom management system:
 ```
 ../Helder_Ho_Lee_Lee_Nguyen_FIP/admin/database/db_rry.sql
 ```
+* Don't forget to configure your password in the admin/scripts/connect.php file according to your Operating System!
     
 ## CMS Admin Default Login
     
