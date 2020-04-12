@@ -485,7 +485,13 @@ color: white;}
                     background-color:transparent;
                     color:white;
                     font-style:italic;
-                    font-family: $p-font; }
+                    font-family: $p-font;
+
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        }
+                }
 
             
                 }
@@ -575,6 +581,7 @@ color: white;}
                     font-family: $m-font;
                     color: $red;
                     border-bottom: 1px black solid;
+                    padding-bottom: 20px;
                 }
 
                 p{
