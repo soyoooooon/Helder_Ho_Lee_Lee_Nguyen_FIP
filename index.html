@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="https://unpkg.com/vue-slick-carousel"></script>
     <title>Red Ribbon Youth</title>
 </head>
 <body>
@@ -17,12 +18,20 @@
         <a href="#"><img id="logo" src="images/logo.svg"></a>
         <div id="menu" v-on:click="burgerMenu"><i class="fas fa-bars" v-bind:class="{expanded : expanded }"></i></div>
         <ul class="navi-toggle" v-if="expanded">
-        <li>ABOUT</li>
-        <li>WORKSHOPS</li>
-        <li>WHY</li>
-         <li>HOW</li>
-         <li>WHERE</li>
-         <li>GET INVOLVED</li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#workshop">WORKSHOPS</a></li>
+        <li><a href="#why">WHY</a></li>
+         <li><a href="#testing">HOW</a></li>
+         <li><a href="#where">WHERE</a></li>
+         <li><a href="#insta">GET INVOLVED</a></li>
+    </ul>
+    <ul class="desktop-ul">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#workshop">WORKSHOPS</a></li>
+        <li><a href="#why">WHY</a></li>
+         <li><a href="#testing">HOW</a></li>
+         <li><a href="#where">WHERE</a></li>
+         <li><a href="#insta">GET INVOLVED</a></li>
     </ul>
     </nav>
     <section id="main-img">
@@ -37,6 +46,228 @@
             <video src="images/placeHolder.mp4" type="video/mp4" controls></video>
         </div>
     </section>
+    <section id="workshop">
+        <div id="workshop-bg">
+            <div class="workshop-banner">
+                <h2>JOIN OUR WORKSHOP</h2>
+                <h3><span>10</span> JUNE</h3>
+                <p>Thames Valley District School Board<br>
+                    11 am - 13pm</p>
+                    <button class="find-out">Find out more</button>
+            </div>   
+        </div> <!--background div ends-->
+        <article id="workshop-table">
+            <div id="row">
+                <div class="date"><h2>30<br>MAY</h2></div>
+                <div class="location"><p>London District Catholic School Board<br>11 am - 13pm</p></div>
+            </div>
+            <div id="row">
+                <div class="date"><h2>30<br>MAY</h2></div>
+                <div class="location"><p>London District Catholic School Board<br>11 am - 13pm</p></div>
+            </div>
+            <div id="row">
+                <div class="date"><h2>30<br>MAY</h2></div>
+                <div class="location"><p>London District Catholic School Board<br>11 am - 13pm</p></div>
+            </div>
+        </article>  
+    </section> <!--workshop-->
+    <article id="why">
+        <section id="is">
+            <h2>HIV/AIDS IS TRANSMITTED</h2>
+            <div id="cont1">
+            <div class="unprotect">
+            <img src="images/sex_1100.svg" alt="unprotect-sex">
+            <h3>Unprotect<br>sex</h3></div>
+            <div class="addict">
+            <img src="images/drug_1100.svg" alt="addict-drug">
+            <h3>Drug addicts</h3></div>
+            <div class="needle">
+            <img src="images/tattoo_1100.svg" alt="Non-sterile-instrument">
+            <h3>Non-sterile<br>instrument</h3></div>
+            <div class="pregnant">
+            <img src="images/pregnant_1100.svg" alt="Pregnancy">
+            <h3>Pregnancy</h3></div>
+            </div>
+            </section>
+        <section id="not">
+            <h2>HIV/AIDS IS <span>NOT</span> TRANSMITTED</h2>
+            <div id="cont2">
+            <div class="food">
+                <img src="images/cake_2100.svg" alt="cake">
+                <h3>Through food</h3></div>
+            <div class="kiss">
+                <img src="images/kiss_1100.svg" alt="kiss">
+                <h3>With a kiss</h3></div>
+            <div class="touch">
+                <img src="images/hand_1100.svg" alt="hand-shake">
+                <h3>Touching</h3></div>
+            <div class="pool">
+                <img src="images/pool_1100.svg" alt="pool">
+                <h3>In the pool</h3>
+            </div> </div>
+            <button class="find-out-more">Find out more</button>
+        </section>
+        </article>
+    <!--testing section-->
+    <section id="testing">
+        <div class="anonymous">
+            <h2>Anonymous<br>Testing</h2>
+            <p>An anonymous test doesn't require your name or health card. The test is ordered using a six digit code instead of your name. Typically, anonymous tests are also rapid tests, which are done on-site by sampling blood from a quick finger prick. You receive the results in about 20 minutes.</p>
+        <button class="see-more">See more..</button>
+        </div>
+        <div class="confidential">
+            <h2>Confidential<br>Testing</h2>
+            <p>A confidential test, like the one you would get at a heath unit or doctor's office, uses your name and usually involves a standard blood draw. The results take longer to come back than rapid test results because they are sent to a lab.</p>
+            <button class="see-more">See more..</button>
+        </div>
+    </section>
+    <section id="where">
+        <section class="info">
+            <div class="info-board">
+                <h2>WHERE TO GET TESTED</h2>
+                <h3>Pick your region to see nearby<br>testing center</h3>
+                <li ref="locationOne">Options clinique - London</li>
+                <li ref="locationTwo">Anova</li>
+                <li ref="locationThree">Central Spa Bathhouse</li>
+                
+                </div><!--board-->
+        </section>
+            <div class="map">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 682 849" style="enable-background:new 0 0 682 849;" xml:space="preserve">
+           <g id="north-london" v-on:click="clickShow()">
+               <polygon id="northlondon" class="st0" points="274,80 312,174 328,168 290,73 	"/>
+           </g>
+           <g id="white-hills" v-on:click="clickShow()">
+               <path id="white_hills" class="st0" d="M19,175l43,100l122-9l-20-49l17-7c0,0-4-3-2-11l-15-8c0,0-3-7,3-9c0,0,1-18-10-14
+                   c0,0-10-1-2-8s21-14,14-21s4-8,5-11s1-7-3-8s0-5,0-5L19,175z"/>
+           </g>
+           <g id="northeast" v-on:click="clickShow2">
+               <path id="northeast_london" class="st0" d="M480,2L326,63l38,95c0,0,13-2,11-14s22-7,22-7s9-5,5-23c0,0,3-8,26-8c0,0,2,0,5-4
+                   s27,1,30-4s29,0,31,2s48-19,38-36C532,64,490,41,480,2z"/>
+           </g>
+           <g id="masonvil" v-on:click="clickShow2()">
+               <path id="Masonville" class="st0" d="M193.1,106l66-26l38,94c0,0,1,7,3,10s0,6-6,5s-13,0-16-5c0,0-10-2-13,5l-4,30l-10,3l-2-35
+                   c0,0-10-3-13,18c0,0-12-6-15,1s0,10,0,10s-10-2-9-16l-10,2c0,0-4-3-2-11l-15-8c0,0-3-7,3-9c0,0,1-18-10-14c0,0-8,0-4-6s25-15,15-24
+                   c0,0-5-5,4-8c0,0,6-5,0-10C193.1,112,187.1,111,193.1,106z"/>
+           </g>
+           <g id="east-london" v-on:click="showBtn()">
+               <path id="east_london" class="st0" d="M568,92l9,22l34-14l11,30l-17,6l18,51l-3,5l1,13l-225,87l-25-69l35-12l-12-35c0,0,10-6,5-23
+                   c0,0,5.8-8.7,25-8h1c0,0,4-2,5-4s13-2.2,21-1.6s10.2-3.4,10.2-3.4S471,132,491,139c0,0,45-12,38-36c0,0,2,4,12,0S568,92,568,92z"/>
+           </g>
+           <g id="south-east" v-on:click="showBtn2()">
+               <path id="south_east_london" class="st0" d="M415,342l-13-40l225-87l14,33c0,0,13,7,17,13l-25,8l8,21c0,0-27,0-22,44l13-6l3,9l11,2
+                   l21,120h10l3,17l-28,4l2,16l-17,4l27,150l-215,72c0,0-2-29-5-38s3-15,18-15s11-19,11-19l-22-131c0,0-8-19-20-30c0,0-6-15-12-18
+                   s-17-85-17-85l-2-18l-14-18v-6l10,1c0,0,2,5,7,1S415,342,415,342z"/>
+           </g>
+           <g id="kipps" v-on:click="clickShow2()">
+               <path id="kipp_s_lane" class="st0" d="M376,172.7c0,0-22-4-22,7s-11,14-11,14l10,25l35-11L376,172.7z"/>
+           </g>
+           <g id="near_west_1_" v-on:click="clickShow()">
+               <path id="near_west" class="st0" d="M184,248l17-7l10-2c0,0-2,12,10,17c0,0-7-8,3-14c0,0,9-1,11,2c0,0,1-18,13-18l2,35v14
+                   c0,0,10,13,3,18l-49,4L184,248z"/>
+           </g>
+           <g id="downtown_1_" v-on:click="showBtn2()">
+               <path id="downtown" class="st1" d="M316,275l52-21l25,73c0,0-7-1-12,4s-7-1-7-1l-10-1l-1,5c0,0-11,9-12-8l-4,1c0,0-3,7-11-3l-10-1
+                   v-12C326,311,330,288,316,275z"/>
+           </g>
+           <g id="west_1_" v-on:click="showBtn()">
+               <path id="west" class="st0" d="M102,319l122-9l49-4l12,18v23c0,0-6-2-22,7c0,0-23,0-26,6v9c0,0-12,7-16,25s-32,16-49,12s-13-4-13-4
+                   s-7-7-20-10c0,0-13,0-19-5s-17-22-4-32s-5-18-5-18S112,327,102,319z"/>
+           </g>
+           <g id="southwest" v-on:click="clickShow()">
+               <path id="southwest_london" class="st0" d="M399,773l-209,74c0,0,52-52,48-63s-32-91-32-91l-16,5l-4-12l17-5l-5-13l-25,8l-3-3
+                   l-24,10v-5l-12,4l-3-9l-7,1l-32-88l10-5l-4-9l-27,2l-7-26l-22,7l-29-87l-11-7c0,0,15-3,0-31c0,0,18-13,18-16s11-4,11-4l24-34
+                   c0,0,10-5,13-3c0,0,0-11,19-16c0,0,10,9,9,18c0,0,17,7,4,19s5,31,5,31s10,5,18,5s13,5,19,9s60,17,64-5s16-27,16-27v-9c0,0,1-5,26-6
+                   c0,0,12-7,17-7h5c0,0,14-4,15-7s13-1,13-1v12l-13,1l2,59l66-3c0,0,10,66,13,71s10.9,17,14,21c16,21,12,16,12,16s10,10,11,29
+                   s22,121,20,128s-7,9-11,9s-21,1-19,11S398,754,399,773z"/>
+           </g>
+           <g id="Layer_1">
+               <g id="WHERE" transform="translate(0.000000, 4523.000000)">
+                   <g id="london_map100" transform="translate(44.000000, 73.000000)">
+                       <path class="st0" d="M265.3-4261.3l2,59l66-3l-3-27l-15-20c0,0-5,7-10,1c-1.2-2.5-1.9-5.2-2-8l-4,1c0,0-4,7-11-3l-10-1
+                           L265.3-4261.3z"/>
+                       <text transform="matrix(1 0 0 1 462.3638 -4203)" class="st2 st3 st4"v-on:click="showBtn2()">Southeast</text>
+                       <text transform="matrix(1 0 0 1 531.6362 -4203)" class="st2 st3 st4"> </text>
+                       <text transform="matrix(1 0 0 1 471.1309 -4178)" class="st2 st3 st4"v-on:click="showBtn2()">London</text>
+                       <text transform="matrix(1 0 0 1 408.6592 -4416)" class="st2 st3 st4"v-on:click="showBtn()">East London</text>
+                       <text transform="matrix(1 0 0 1 349.217 -4534)" class="st2 st3 st4" v-on:click="clickShow2()">Northeast </text>
+                       <text transform="matrix(1 0 0 1 357.1309 -4509)" class="st2 st3 st4">London</text>
+                       <text transform="matrix(1 0 0 1 233.6934 -4534)" class="st2 st3 st4"v-on:click="clickShow()">North</text>
+                       <text transform="matrix(1 0 0 1 272.3066 -4534)" class="st2 st3 st4"> </text>
+                       <text transform="matrix(1 0 0 1 227.1309 -4509)" class="st2 st3 st4"v-on:click="clickShow()">London</text>
+                       <text transform="matrix(1 0 0 1 151.4666 -4455)" class="st2 st3 st4" v-on:click="clickShow2()">Masonville</text>
+                       <text transform="matrix(1 0 0 1 29.55 -4413)" class="st2 st3 st4" v-on:click="clickShow()">Whitehills</text>
+                       <text transform="matrix(1 0 0 1 94.5913 -4309)" class="st2 st3 st4" v-on:click="clickShow2()">Near West</text>
+                       <text transform="matrix(1 0 0 1 259.7979 -4376)" class="st2 st3 st4" v-on:click="showBtn()">Old</text>
+                       <text transform="matrix(1 0 0 1 284.2021 -4376)" class="st2 st3 st4"> </text>
+                       <text transform="matrix(1 0 0 1 253.6931 -4351)" class="st2 st3 st4" v-on:click="showBtn()">Town</text>
+                       <text transform="matrix(1 0 0 1 195.0244 -4297)" class="st2 st3 st4">Near South</text>
+                       <text transform="matrix(1 0 0 1 101.7659 -4250)" class="st2 st3 st4">West London</text>
+                       <text transform="matrix(1 0 0 1 142.2471 -4045)" class="st2 st3 st4" v-on:click="clickShow()">SouthWest </text>
+                       <text transform="matrix(1 0 0 1 153.1309 -4020)" class="st2 st3 st4">London</text>
+                       <text transform="matrix(1 0 0 1 288.7979 -4218)" class="st2 st3 st4">Old</text>
+                       <text transform="matrix(1 0 0 1 313.2021 -4218)" class="st2 st3 st4"> </text>
+                       <text transform="matrix(1 0 0 1 280.8401 -4193)" class="st2 st3 st4">South</text>
+                       <text transform="matrix(1 0 0 1 284.5618 -4289)" class="st2 st3 st4" v-on:click="showBtn2()">Downtown</text>
+                   </g>
+               </g>
+               <path id="Path" class="st0" d="M284,254l-10,3v14c0,0,10,12,3,18l12,18v23c0,0,12-3,15-7s13-1,13-1s3-24-10-36
+                   c-1.2-2.1-1.6-4.6-1-7c1-4-3-10-16-11S284,254,284,254z"/>
+               <path class="st0" d="M354.5,244l-51,21c-1.2-2.1-1.6-4.6-1-7c1-4-4-10-14-11s-11-4-8-14l4-29c0,0,3-9,13-6c0,0,2,5,13,5s10,1,10-3
+                   s-4-6-4-12l16-6L354.5,244z"/>
+           </g>
+           </svg>
+        </div>
+    </section>
+    <section id="insta">
+        <div class='insta-info'>
+            <h2>JOIN US<br>ON INSTAGRAM</h2>
+            <p>Pass along your courage with #redribbonyouth.<br>
+                Be brave enough to say no to unprotected sex, to say yes to get tested.<br>And inspired others with your story.</p>
+         </div>
+         <!--test-->
+         <div class="slides">
+            <transition-group 
+              name="slide"
+              mode="out-in"
+              enter-class="slide-in"
+              leave-class="slide-out"
+              enter-active-class="animated slide-in-active"
+              leave-active-class="animated slide-out-active">
+              <div v-for="index in slides"
+                v-if="index == active"
+                :key="index">Slide  {{ index }}</div>
+              </transition-group></div>
+              <button class="prev"  @click="move(-1)">Prev</button>
+              <button class="next" @click="move(1)">Move</button>
+         
+     </section>
+    <!---news-->
+   <footer>
+    <section id="news">
+    <h2>Sign up for our newsletter</h2>
+    <p>We will keep you posted with our latest workshop<br>
+        schedule and testing information.</p>
+    <form>
+    <label>Email *</label>
+    <input type="text"></input>
+    <button>Sign Up</button>
+        </form>
+    </section>
+    <section id="social">
+        <ul>
+        <li><a href="#"><img src="images/snapchat100.svg" alt="snapchat"></a></li>
+        <li><a href="#"><img src="images/insta100.svg" alt="instagram"></a></li></ul>
+        <p>Red Ribbon Youth is dedicated to combat the HIV discrimination through raising awareness and understanding among teenagers. Information on this site is not to be used for diagnosis, treatment or referral services. Individuals should contact their personal physician, and/or their local addiction or mental health agency for further information. If you are in crisis, please go to your local hospital or call 911 immediately.
+        <br><br><br>© Red Ribbon Youth, 2020. All rights reserved.
+        </p>
+    </section>
+</footer>
+   
+        
+    
+   
 </main>
     <script src="js/main.js"></script>
 </body>

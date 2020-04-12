@@ -1,73 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="682px" height="849px" viewBox="0 0 682 849" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
-    <title>london_map100</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-42.000000, -4594.000000)">
-            <g id="WHERE" transform="translate(0.000000, 4523.000000)">
-                <g id="london_map100" transform="translate(44.000000, 73.000000)">
-                    <polygon id="northlondon" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="272 78 310 172 326 166 288 71"></polygon>
-                    <path d="M17,173 L60,273 L182,264 L162,215 L179,208 C179,208 175,205 177,197 L162,189 C162,189 159,182 165,180 C165,180 166,162 155,166 C155,166 145,165 153,158 C161,151 174,144 167,137 C160,130 171,129 172,126 C173,123 173,119 169,118 C165,117 169,113 169,113 L17,173 Z" id="white_hills" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M191.12,104 L257.12,78 L295.12,172 C295.12,172 296.12,179 298.12,182 C300.12,185 298.12,188 292.12,187 C286.12,186 279.12,187 276.12,182 C276.12,182 266.12,180 263.12,187 L259.12,217 L249.12,220 L247.12,185 C247.12,185 237.12,182 234.12,203 C234.12,203 222.12,197 219.12,204 C216.12,211 219.12,214 219.12,214 C219.12,214 209.12,212 210.12,198 L200.12,200 C200.12,200 196.12,197 198.12,189 L183.12,181 C183.12,181 180.12,174 186.12,172 C186.12,172 187.12,154 176.12,158 C176.12,158 168.12,158 172.12,152 C176.12,146 197.12,137 187.12,128 C187.12,128 182.12,123 191.12,120 C191.12,120 197.12,115 191.12,110 C191.12,110 185.12,109 191.12,104 Z" id="Masonville" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M478,0 L324,61 L362,156 C362,156 375,154 373,142 C371,130 395,135 395,135 C395,135 404,130 400,112 C400,112 403,104 426,104 C426,104 428,104 431,100 C434,96 458,101 461,96 C464,91 490,96 492,98 C494,100 540,79 530,62 C530,62 488,39 478,0 Z" id="northeast_london" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M566,90 L575,112 L609,98 L620,128 L603,134 L621,185 L618,190 L619,203 L394,290 L369,221 L404,209 L392,174 C392,174 402,168 397,151 C397,151 402.81,142.29 422.05,143 L423,143 C423,143 427,141 428,139 C429,137 441,136.78 449,137.39 C457,138 459.22,133.94 459.22,133.94 C459.22,133.94 468.99,130 488.99,137 C488.99,137 533.99,125 526.99,101 C526.99,101 528.99,105 538.99,101 C548.99,97 566,90 566,90 Z" id="east_london" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M413,340 L400,300 L625,213 L639,246 C639,246 652,253 656,259 L631,267 L639,288 C639,288 612,288 617,332 L630,326 L633,335 L644,337 L665,457 L675,457 L678,474 L650,478 L652,494 L635,498 L662,648 L447,720 C447,720 445,691 442,682 C439,673 445,667 460,667 C475,667 471,648 471,648 L449,517 C449,517 441,498 429,487 C429,487 423,472 417,469 C411,466 400,384 400,384 L398,366 L384,348 L384,342 L394,343 C394,343 396,348 401,344 C406,340 413,340 413,340 Z" id="south_east_london" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M397,771 L188,845 C188,845 240,793 236,782 C232,771 204,691 204,691 L188,696 L184,684 L201,679 L196,666 L171,674 L168,671 L144,681 L144,676 L132,680 L129,671 L122,672 L90,584 L100,579 L96,570 L69,572 L62,546 L40,553 L11,466 L0,459 C0,459 15,456 0,428 C0,428 18,415 18,412 C18,409 29,408 29,408 L53,374 C53,374 63,369 66,371 C66,371 66,360 85,355 C85,355 95,364 94,373 C94,373 111,380 98,392 C85,404 103,423 103,423 C103,423 113,428 121,428 C129,428 134,433 140,437 C146,441 200,454 204,432 C208,410 220,405 220,405 L220,396 C220,396 221,391 246,390 C246,390 258,383 263,383 L268,383 C268,383 282,379 283,376 C284,373 296,375 296,375 L296,387 L283,388 L285,447 L351,444 C351,444 361,510 364,515 C367,520 374.91,531.95 378,536 C394,557 390,552 390,552 C390,552 400,562 401,581 C402,600 423,702 421,709 C419,716 414,718 410,718 C406,718 389,719 391,729 C393,739 396,752 397,771 Z" id="southwest_london" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M100,317 L222,308 L271,304 L283,322 L283,345 C283,345 277,343 261,352 C261,352 238,352 235,358 L235,367 C235,367 223,374 219,392 C215,410 187,408 170,404 C153,400 157,400 157,400 C157,400 150,393 137,390 C137,390 124,390 118,385 C112,380 101,363 114,353 C127,343 109,335 109,335 C109,335 110,325 100,317 Z" id="west" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M282,252 L272,255 L272,269 C272,269 282,281 275,287 L287,305 L287,328 C287,328 299,325 302,321 C305,317 315,320 315,320 C315,320 318,296 305,284 C303.76422,281.887175 303.405243,279.374331 304,277 C305,273 301,267 288,266 C275,265 282,252 282,252 Z" id="Path" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M314,273 L366,252 L391,325 C391,325 384,324 379,329 C374,334 372,328 372,328 L362,327 L361,332 C361,332 350,341 349,324 L345,325 C345,325 342,332 334,322 L324,321 L324,309 C324,309 328,286 314,273 Z" id="downtown" stroke="#FFFFFF" stroke-width="3" fill="#AD0D12" fill-rule="nonzero" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M182,246 L199,239 L209,237 C209,237 207,249 219,254 C219,254 212,246 222,240 C222,240 231,239 233,242 C233,242 234,224 246,224 L248,259 L248,273 C248,273 258,286 251,291 L202,295 L182,246 Z" id="near_west" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M374,170.709141 C374,170.709141 352,166.709141 352,177.709141 C352,188.709141 341,191.709141 341,191.709141 L351,216.709141 L386,205.709141 L374,170.709141 Z" id="kipp_s_lane" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M352.488056,242 L301.488056,263 C300.252276,260.887175 299.893298,258.374331 300.488056,256 C301.488056,252 296.488056,246 286.488056,245 C276.488056,244 275.488056,241 278.488056,231 L282.488056,202 C282.488056,202 285.488056,193 295.488056,196 C295.488056,196 297.488056,201 308.488056,201 C319.488056,201 318.488056,202 318.488056,198 C318.488056,194 314.488056,192 314.488056,186 L330.488056,180 L352.488056,242 Z" id="Path" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <path d="M307.32,332.67 L309.32,391.67 L375.32,388.67 L372.32,361.67 L357.32,341.67 C357.32,341.67 352.32,348.67 347.32,342.67 C346.12329,340.164547 345.443116,337.443852 345.32,334.67 L341.32,335.67 C341.32,335.67 337.32,342.67 330.32,332.67 L320.32,331.67 L307.32,332.67 Z" id="Path" stroke="#FFFFFF" stroke-width="3" opacity="0.635588728" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                    <text id="Southeast-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="504.36377" y="391">Southeast</tspan>
-                        <tspan x="513.130859" y="416">London</tspan>
-                    </text>
-                    <text id="East-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="450.65918" y="178">East London</tspan>
-                    </text>
-                    <text id="Northeast-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="391.217041" y="60">Northeast </tspan>
-                        <tspan x="399.130859" y="85">London</tspan>
-                    </text>
-                    <text id="North-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="275.693359" y="60">North</tspan>
-                        <tspan x="269.130859" y="85">London</tspan>
-                    </text>
-                    <text id="Masonville" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="193.466553" y="139">Masonville</tspan>
-                    </text>
-                    <text id="Whitehills" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="71.5500488" y="181">Whitehills</tspan>
-                    </text>
-                    <text id="Near-West" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="136.591309" y="285">Near West</tspan>
-                    </text>
-                    <text id="Old-Town" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="301.797852" y="218">Old</tspan>
-                        <tspan x="295.693115" y="243">Town</tspan>
-                    </text>
-                    <text id="Near-South" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="237.024414" y="297">Near South</tspan>
-                    </text>
-                    <text id="West-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="143.765869" y="344">West London</tspan>
-                    </text>
-                    <text id="SouthWest-London" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="184.24707" y="549">SouthWest </tspan>
-                        <tspan x="195.130859" y="574">London</tspan>
-                    </text>
-                    <text id="Old-South" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="330.797852" y="376">Old</tspan>
-                        <tspan x="322.840088" y="401">South</tspan>
-                    </text>
-                    <text id="Downtown" font-family="EuphemiaUCAS-Italic, Euphemia UCAS" font-size="15" font-style="italic" font-weight="normal" line-spacing="25" fill="#FFFFFF">
-                        <tspan x="326.561768" y="305">Downtown</tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 682 849" style="enable-background:new 0 0 682 849;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{opacity:0.6356;fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+	
+		.st1{opacity:0.6356;fill:#AD0D12;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'EuphemiaUCAS-Italic';}
+	.st4{font-size:15px;}
+</style>
+<g id="north-london">
+	<polygon id="northlondon" class="st0" points="274,80 312,174 328,168 290,73 	"/>
+</g>
+<g id="white-hills">
+	<path id="white_hills" class="st0" d="M19,175l43,100l122-9l-20-49l17-7c0,0-4-3-2-11l-15-8c0,0-3-7,3-9c0,0,1-18-10-14
+		c0,0-10-1-2-8s21-14,14-21s4-8,5-11s1-7-3-8s0-5,0-5L19,175z"/>
+</g>
+<g id="northeast">
+	<path id="northeast_london" class="st0" d="M480,2L326,63l38,95c0,0,13-2,11-14s22-7,22-7s9-5,5-23c0,0,3-8,26-8c0,0,2,0,5-4
+		s27,1,30-4s29,0,31,2s48-19,38-36C532,64,490,41,480,2z"/>
+</g>
+<g id="masonvil">
+	<path id="Masonville" class="st0" d="M193.1,106l66-26l38,94c0,0,1,7,3,10s0,6-6,5s-13,0-16-5c0,0-10-2-13,5l-4,30l-10,3l-2-35
+		c0,0-10-3-13,18c0,0-12-6-15,1s0,10,0,10s-10-2-9-16l-10,2c0,0-4-3-2-11l-15-8c0,0-3-7,3-9c0,0,1-18-10-14c0,0-8,0-4-6s25-15,15-24
+		c0,0-5-5,4-8c0,0,6-5,0-10C193.1,112,187.1,111,193.1,106z"/>
+</g>
+<g id="east-london">
+	<path id="east_london" class="st0" d="M568,92l9,22l34-14l11,30l-17,6l18,51l-3,5l1,13l-225,87l-25-69l35-12l-12-35c0,0,10-6,5-23
+		c0,0,5.8-8.7,25-8h1c0,0,4-2,5-4s13-2.2,21-1.6s10.2-3.4,10.2-3.4S471,132,491,139c0,0,45-12,38-36c0,0,2,4,12,0S568,92,568,92z"/>
+</g>
+<g id="south-east">
+	<path id="south_east_london" class="st0" d="M415,342l-13-40l225-87l14,33c0,0,13,7,17,13l-25,8l8,21c0,0-27,0-22,44l13-6l3,9l11,2
+		l21,120h10l3,17l-28,4l2,16l-17,4l27,150l-215,72c0,0-2-29-5-38s3-15,18-15s11-19,11-19l-22-131c0,0-8-19-20-30c0,0-6-15-12-18
+		s-17-85-17-85l-2-18l-14-18v-6l10,1c0,0,2,5,7,1S415,342,415,342z"/>
+</g>
+<g id="kipps">
+	<path id="kipp_s_lane" class="st0" d="M376,172.7c0,0-22-4-22,7s-11,14-11,14l10,25l35-11L376,172.7z"/>
+</g>
+<g id="near_west_1_">
+	<path id="near_west" class="st0" d="M184,248l17-7l10-2c0,0-2,12,10,17c0,0-7-8,3-14c0,0,9-1,11,2c0,0,1-18,13-18l2,35v14
+		c0,0,10,13,3,18l-49,4L184,248z"/>
+</g>
+<g id="downtown_1_">
+	<path id="downtown" class="st1" d="M316,275l52-21l25,73c0,0-7-1-12,4s-7-1-7-1l-10-1l-1,5c0,0-11,9-12-8l-4,1c0,0-3,7-11-3l-10-1
+		v-12C326,311,330,288,316,275z"/>
+</g>
+<g id="west_1_">
+	<path id="west" class="st0" d="M102,319l122-9l49-4l12,18v23c0,0-6-2-22,7c0,0-23,0-26,6v9c0,0-12,7-16,25s-32,16-49,12s-13-4-13-4
+		s-7-7-20-10c0,0-13,0-19-5s-17-22-4-32s-5-18-5-18S112,327,102,319z"/>
+</g>
+<g id="southwest">
+	<path id="southwest_london" class="st0" d="M399,773l-209,74c0,0,52-52,48-63s-32-91-32-91l-16,5l-4-12l17-5l-5-13l-25,8l-3-3
+		l-24,10v-5l-12,4l-3-9l-7,1l-32-88l10-5l-4-9l-27,2l-7-26l-22,7l-29-87l-11-7c0,0,15-3,0-31c0,0,18-13,18-16s11-4,11-4l24-34
+		c0,0,10-5,13-3c0,0,0-11,19-16c0,0,10,9,9,18c0,0,17,7,4,19s5,31,5,31s10,5,18,5s13,5,19,9s60,17,64-5s16-27,16-27v-9c0,0,1-5,26-6
+		c0,0,12-7,17-7h5c0,0,14-4,15-7s13-1,13-1v12l-13,1l2,59l66-3c0,0,10,66,13,71s10.9,17,14,21c16,21,12,16,12,16s10,10,11,29
+		s22,121,20,128s-7,9-11,9s-21,1-19,11S398,754,399,773z"/>
+</g>
+<g id="Layer_1">
+	<g id="WHERE" transform="translate(0.000000, 4523.000000)">
+		<g id="london_map100" transform="translate(44.000000, 73.000000)">
+			<path class="st0" d="M265.3-4261.3l2,59l66-3l-3-27l-15-20c0,0-5,7-10,1c-1.2-2.5-1.9-5.2-2-8l-4,1c0,0-4,7-11-3l-10-1
+				L265.3-4261.3z"/>
+			<text transform="matrix(1 0 0 1 462.3638 -4203)" class="st2 st3 st4">Southeast</text>
+			<text transform="matrix(1 0 0 1 531.6362 -4203)" class="st2 st3 st4"> </text>
+			<text transform="matrix(1 0 0 1 471.1309 -4178)" class="st2 st3 st4">London</text>
+			<text transform="matrix(1 0 0 1 408.6592 -4416)" class="st2 st3 st4">East London</text>
+			<text transform="matrix(1 0 0 1 349.217 -4534)" class="st2 st3 st4">Northeast </text>
+			<text transform="matrix(1 0 0 1 357.1309 -4509)" class="st2 st3 st4">London</text>
+			<text transform="matrix(1 0 0 1 233.6934 -4534)" class="st2 st3 st4">North</text>
+			<text transform="matrix(1 0 0 1 272.3066 -4534)" class="st2 st3 st4"> </text>
+			<text transform="matrix(1 0 0 1 227.1309 -4509)" class="st2 st3 st4">London</text>
+			<text transform="matrix(1 0 0 1 151.4666 -4455)" class="st2 st3 st4">Masonville</text>
+			<text transform="matrix(1 0 0 1 29.55 -4413)" class="st2 st3 st4">Whitehills</text>
+			<text transform="matrix(1 0 0 1 94.5913 -4309)" class="st2 st3 st4">Near West</text>
+			<text transform="matrix(1 0 0 1 259.7979 -4376)" class="st2 st3 st4">Old</text>
+			<text transform="matrix(1 0 0 1 284.2021 -4376)" class="st2 st3 st4"> </text>
+			<text transform="matrix(1 0 0 1 253.6931 -4351)" class="st2 st3 st4">Town</text>
+			<text transform="matrix(1 0 0 1 195.0244 -4297)" class="st2 st3 st4">Near South</text>
+			<text transform="matrix(1 0 0 1 101.7659 -4250)" class="st2 st3 st4">West London</text>
+			<text transform="matrix(1 0 0 1 142.2471 -4045)" class="st2 st3 st4">SouthWest </text>
+			<text transform="matrix(1 0 0 1 153.1309 -4020)" class="st2 st3 st4">London</text>
+			<text transform="matrix(1 0 0 1 288.7979 -4218)" class="st2 st3 st4">Old</text>
+			<text transform="matrix(1 0 0 1 313.2021 -4218)" class="st2 st3 st4"> </text>
+			<text transform="matrix(1 0 0 1 280.8401 -4193)" class="st2 st3 st4">South</text>
+			<text transform="matrix(1 0 0 1 284.5618 -4289)" class="st2 st3 st4">Downtown</text>
+		</g>
+	</g>
+	<path id="Path" class="st0" d="M284,254l-10,3v14c0,0,10,12,3,18l12,18v23c0,0,12-3,15-7s13-1,13-1s3-24-10-36
+		c-1.2-2.1-1.6-4.6-1-7c1-4-3-10-16-11S284,254,284,254z"/>
+	<path class="st0" d="M354.5,244l-51,21c-1.2-2.1-1.6-4.6-1-7c1-4-4-10-14-11s-11-4-8-14l4-29c0,0,3-9,13-6c0,0,2,5,13,5s10,1,10-3
+		s-4-6-4-12l16-6L354.5,244z"/>
+</g>
 </svg>

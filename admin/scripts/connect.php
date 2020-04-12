@@ -9,7 +9,7 @@ class Database
     private $username = "root";
 
 //change to "root" for mac use :) //
-    private $password = "";
+    private $password = "root";
 //--------------------------------//
 
     private static $instance = null;
